@@ -1,0 +1,31 @@
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /undefined con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /undefined con el método GET"}
+{"level":"error","message":"No es posible obtener la información de la base de datos  Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":"7fffffff0000000000000135","maxSetVersion":8,"servers":{},"setName":"atlas-mx33ed-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at Model.$wrapCallback (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\model.js:5302:32)\n    at C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4944:21\n    at C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:41:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:40:10)\n    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4943:10)\n    at Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)"}
+{"level":"error","message":"next is not defined"}
+{"level":"error","message":"No es posible obtener la información de la base de datos  Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":"7fffffff0000000000000135","maxSetVersion":8,"servers":{},"setName":"atlas-mx33ed-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at Model.$wrapCallback (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\model.js:5302:32)\n    at C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4944:21\n    at C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:41:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:40:10)\n    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4943:10)\n    at Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)"}
+{"level":"error","message":"next is not defined"}
+{"level":"warn","message":"Fallo en el login: usuario no encontrado con el username stefanocorso6@gmail.com"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /Marroquino-KIT-con-lamp-scaled.png con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /cajaEdificiosLocos.png con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /Marroquino-KIT-con-lamp-scaled.png con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /cajaEdificiosLocos con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /Marroquino-KIT-con-lamp-scaled.png con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /cajaEdificiosLocos.png con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"No existe la categoría solicitada de juegos de mesa"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /public/img/fondoInicio.png con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /public/img/fondoInicio.png con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /me con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /admin con el método GET"}
+{"level":"warn","message":"Fallo en el registro: el usuario con el username stefanocorso006@gmail.com ya existe"}

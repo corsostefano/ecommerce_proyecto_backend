@@ -1,0 +1,48 @@
+<section class="container">
+  <div id="signin-div" class="border border-dark mt-5 bg-primary rounded d-none">
+    <form id="signin-form" class="m-3 text-white fw-bold">
+      <div class="mb-3">
+        <label for="inputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" required>
+      </div>
+      <div class="mb-3">
+        <label for="inputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword" required>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Ingresar</button>
+    </form>
+  </div>
+  <div id="signup-div" class="border border-dark mt-5 bg-primary rounded d-none">
+    <form id="signup-form" class="m-3 text-white fw-bold">
+      <div class="mb-3 row">
+        <div class="col">
+          <label for="inputName" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="inputName" required>
+        </div>
+        <div class="col">
+          <label for="inputLastname" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="inputLastname" required>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="inputPhone" class="form-label">Teléfono</label>
+        <input type="number" class="form-control" id="inputPhone" required>
+      </div>
+      <div class="mb-3">
+        <label for="inputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" required>
+      </div>
+      <div class="mb-3">
+        <label for="inputPassword1" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="inputPassword1" required>
+      </div>
+      <div class="mb-3">
+        <label for="inputPassword2" class="form-label">Repetir Contraseña</label>
+        <input type="password" class="form-control" id="inputPassword2" required>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Registrarse</button>
+      <div id="text-error-register"></div>
+    </form>
+  </div>
+</section>
+<script src="./js/index.js"></script>

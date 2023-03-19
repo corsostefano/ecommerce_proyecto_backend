@@ -1,0 +1,62 @@
+[
+  {
+    "id": "messages",
+    "messages": [
+      {
+        "authors": {
+          "email": "Servidor@chat",
+          "fullname": "Admin"
+        },
+        "comments": {
+          "id": "000000",
+          "content": "¿En que podemos ayudarle? Escriba su mensaje, en la brevedad será contestado.",
+          "timestamp": "04/3/2023, 17:39:58"
+        }
+      },
+      {
+        "authors": {
+          "email": "stefanocorso6@gmail.com",
+          "name": "stefano corso"
+        },
+        "comments": {
+          "id": "275ac041-8f3e-4d4c-8480-69485417e871",
+          "content": "hola",
+          "timestamp": "4/3/2023, 18:04:29"
+        }
+      },
+      {
+        "authors": {
+          "email": "stefanocorso6@gmail.com",
+          "name": "stefano corso"
+        },
+        "comments": {
+          "id": "25d2362d-d68e-43e8-9a5f-aaf0e5b525ae",
+          "content": "deseo información sobre un producto",
+          "timestamp": "4/3/2023, 18:07:15"
+        }
+      },
+      {
+        "authors": {
+          "email": "olga@gmail.com",
+          "name": "olga torres"
+        },
+        "comments": {
+          "id": "c136d242-a0a1-49fc-a39c-7ad5eb139dd8",
+          "content": "saludos",
+          "timestamp": "5/3/2023, 8:01:19"
+        }
+      },
+      {
+        "authors": {
+          "email": "olga@gmail.com",
+          "name": "olga torres"
+        },
+        "comments": {
+          "id": "120072ee-fd59-4581-9ab6-4e10a20ed9e5",
+          "content": "precio del perfume",
+          "timestamp": "5/3/2023, 12:23:57"
+        }
+      }
+    ]
+  }
+]

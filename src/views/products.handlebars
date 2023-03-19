@@ -1,0 +1,30 @@
+<section class="container">
+    <div class="row bg-primary">
+        <div class="text-white fw-bold col-6 justify-content-end">Categorías: </div><a class="text-white col-2 text-decoration-none" href="/productos/category/familiar">Familiar</a><a class="text-white col-2 text-decoration-none" href="/productos/category/estrategia">Estrategia</a><a class="text-white col-2 text-decoration-none" href="/productos/category/roll&write">Roll & Write</a>
+    </div>
+    <div class="products-table">    
+        <div>
+            <h2>Productos</h2>
+            <table class="table bg-Secondary text-center" id="tableProducts">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio [$]</th>
+                    <th>Imagen</th>
+                    <th>Agregar al carrito</th>
+                </tr>
+                {{#each productos}}
+                <tr>
+                    <td>{{this.title}}</td>
+                    <td>{{this.price}}</td>
+                    <td><a href="/productos/images/{{this._id}}"><img src="{{this.thumbnail}}" alt="{{this.title}}"width="100px"></a></td>
+                    <td>
+                        <button id='addProduct{{this._id}}' onclick="addProductToCart('{{this._id}}')"
+                            class='btn btn-outline-success'>+</button>
+                    </td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+    </div>
+</section>
+<script src="./js/products.js"></script>

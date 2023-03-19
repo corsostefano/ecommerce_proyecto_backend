@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Información del servidor
+  body
+    h1 Información del servidor
+    table
+      tr
+        th Argumentos
+        td #{data.arguments}
+      tr
+        th Carpeta de Ejecución
+        td #{data.executionPath}
+      tr
+        th Nombre de Plataforma
+        td #{data.platformName}
+      tr
+        th ID de Proceso
+        td #{data.processID}
+      tr
+        th Versión de Node.js
+        td #{data.nodeVersion}
+      tr
+        th Carpeta de Proyecto
+        td #{data.projectFolder}
+      tr
+        th Memoria Reservada
+        td #{data.totalReservedMemory}
+      tr
+        th Cantidad de CPUs
+        td #{data.totalCPUs}
