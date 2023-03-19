@@ -129,6 +129,7 @@ export async function buyCart(req, res, next) {
     <p>${productsCart.message}</p>
     <p>estado: generada</p>`;
     await sendMail(`Usuario ${user.email} realizó una compra`, message, process.env.USER_GMAIL);
+    await sendMail('Gracias por su compra', message, user.email);
     logger.info('La compra ya ha sido comunicada al proveedor');
     res.status(200).json(message);
   } catch (err) {
