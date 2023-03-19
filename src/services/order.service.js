@@ -9,7 +9,7 @@ async function addNewOrder(order) {
 }
 
 async function getOrders() {
-  return await orderInstance.getAll();
+  return await orderInstance.getAll({deletedAt:{$exists:false}});
 }
 
 export default {

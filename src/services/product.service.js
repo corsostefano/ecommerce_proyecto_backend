@@ -3,7 +3,7 @@ import ProductRepository from "../models/repository/product.repository.js";
 const repository = new ProductRepository();
 
 async function getAll() {
-  return await repository.getAll();
+  return await repository.getAll({deletedAt:{$exists:false}});
 }
 
 async function addProduct(product) {

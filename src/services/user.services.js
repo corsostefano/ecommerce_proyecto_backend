@@ -9,7 +9,7 @@ async function addNewUser(user) {
 }
 
 async function getUsers() {
-  return await userInstance.getAll();
+  return await userInstance.getAll({deletedAt:{$exists:false}});
 }
 
 async function uploadUser(id, data) {
