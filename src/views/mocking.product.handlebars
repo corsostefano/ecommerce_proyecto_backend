@@ -1,0 +1,22 @@
+<section class="container">
+    <div class="products-table">    
+        <div>
+            <h2>Productos/Test</h2>
+            <table class="table bg-Secondary text-center" id="tableProducts">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio [$]</th>
+                    <th>Imagen</th>
+                </tr>
+                {{#each productos}}
+                <tr>
+                    <td>{{this.title}}</td>
+                    <td>{{this.price}}</td>
+                    <td><a href="/productos/images/{{this._id}}"><img src="{{this.thumbnail}}" alt="{{this.title}}"width="100px"></a></td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+    </div>
+</section>
+<script src="./js/products.js"></script>

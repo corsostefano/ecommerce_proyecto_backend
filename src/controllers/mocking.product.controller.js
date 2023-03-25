@@ -5,8 +5,8 @@ const mockingProduct = new mockingProducts ()
 
 export async function mockingProd(req, res, next){
     try {
-        const products = await mockingProduct.generateProduct(100);
-        res.json(products);
+        const productos = await mockingProduct.generateProduct(100);
+        res.status(200).render('mocking.product.handlebars', { productos });
         logger.info('Products generated successfully');
       } catch (err) {
           logger.error(err.message);
