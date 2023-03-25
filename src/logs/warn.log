@@ -29,3 +29,10 @@
 {"level":"warn","message":"Acceso a ruta inexistente /me con el método GET"}
 {"level":"warn","message":"Acceso a ruta inexistente /admin con el método GET"}
 {"level":"warn","message":"Fallo en el registro: el usuario con el username stefanocorso006@gmail.com ya existe"}
+{"level":"warn","message":"Contraseña inválida"}
+{"level":"warn","message":"Fallo en el login: usuario no encontrado con el username afadf@gmail.com"}
+{"level":"warn","message":"Contraseña inválida"}
+{"level":"warn","message":"Contraseña inválida"}
+{"level":"warn","message":"Contraseña inválida"}
+{"level":"warn","message":"Acceso a ruta inexistente /favicon.ico con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /mockingproducts con el método GET"}

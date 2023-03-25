@@ -14,6 +14,7 @@ import minimist from 'minimist';
 import { logger } from './logs/logger.logs.js';
 import pug from 'pug';
 import ejs from 'ejs';
+import compression from 'express-compression'
 
 export const argv = minimist(process.argv.slice(2), {
     default: { cluster: false },
@@ -43,6 +44,10 @@ if (ENABLE_CLUSTER && cluster.isPrimary) {
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
     app.use(cookieParser());
+    app.use(compression({
+        brotli: {enabled:true, zlib: {}},
+      }),
+      );
 
     initPassport();
 
