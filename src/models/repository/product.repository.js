@@ -37,4 +37,7 @@ export default class ProductRepository {
   async delete(id) {
     return await this.dao.deleteById(id);
   }
+  async searchProducts(query){
+    return await this.dao.search(query)
+  }
 }

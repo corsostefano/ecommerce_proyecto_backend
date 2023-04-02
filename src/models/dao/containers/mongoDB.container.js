@@ -68,6 +68,19 @@ class MongoDBContainer {
         next(customError);
       }
     }
+    async search(query) {
+      try {
+        const products = await this.collection.find({
+          title: new RegExp(query, "i")
+        });
+        return products;
+      } catch (err) {
+        logger.error('No es posible buscar elementos en la base de datos ', err);
+        const customError = new Error(`No es posible buscar elementos en la base de datos: ${err}`);
+        customError.id = 4;
+        next(customError);
+      }
+    }
   }
   
   export default MongoDBContainer;

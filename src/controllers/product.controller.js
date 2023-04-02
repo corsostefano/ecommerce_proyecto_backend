@@ -116,3 +116,17 @@ export async function deleteProduct(req, res, next) {
     next(customError);
   }
 }
+
+export async function search(req, res, next) {
+  try {
+    const query = req.query.query;
+    const productos = await productServices.searchProductByQuery( query);
+    res.status(200).render('search.handlebars', { productos });
+    console.log(productos)
+  } catch (err) {
+    logger.error(err.message);
+    const customError = new Error(err.message);
+    customError.id = 3;
+    next(customError);
+  }
+}

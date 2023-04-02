@@ -1,5 +1,6 @@
 const linkProducts = document.getElementById('products-link-button');
 const linkChat = document.getElementById('chat-link-button');
+const inputSearch= document.getElementById('input-search');
 const outAccount = document.getElementById('out-account');
 const selectSignInButton = document.getElementById('nav-signin');
 const selectSignUpButton = document.getElementById('nav-signup');
@@ -20,6 +21,7 @@ async function loadWebPage() {
         inAccount.classList.remove('d-none');
         linkProducts.classList.remove('d-none');
         linkChat.classList.remove('d-none');
+        inputSearch.classList.remove('d-none')
         if (!cart) {
             cartButton.classList.add('d-none');
         } else {

@@ -8,12 +8,14 @@ import {
     getProduct,
     updateProduct,
     deleteProduct,
-    indexProducts
+    indexProducts,
+    search,
 } from '../../controllers/product.controller.js';
 
 const router = Router();
 
 router.get('/', verifyToken, indexProducts);
+router.get('/search', verifyToken, search);
 router.get('/all', verifyToken, getAllProducts);
 router.get('/category/:category', verifyToken, getByCategory);
 router.get('/images/:id', verifyToken, getImageProduct);

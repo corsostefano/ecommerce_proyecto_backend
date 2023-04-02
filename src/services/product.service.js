@@ -21,6 +21,9 @@ async function updateProductById(id, data) {
 async function deleteProductById(id) {
   return await repository.delete(id);
 }
+async function searchProductByQuery(query){
+  return await repository.searchProducts(query)
+}
 
 export default {
   getAll,
@@ -28,4 +31,5 @@ export default {
   getProductById,
   updateProductById,
   deleteProductById,
+  searchProductByQuery
 };
