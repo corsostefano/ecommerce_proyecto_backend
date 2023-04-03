@@ -121,15 +121,22 @@ export async function search(req, res, next) {
   try {
     const query = req.query.query;
     const productos = await productServices.searchProductByQuery(query);
-    const productosRender = productos.map((producto) => {
-      return {
-        title: producto.title,
-        price: producto.price,
-        thumbnail: producto.thumbnail,
-        _id: producto._id
+    if (productos.length === 0) { 
+      const error = {
+        message: 'Lo sentimos, el producto no ha sido encontrado.'
       };
-    });
-    res.status(200).render('search.handlebars', { productos: productosRender });
+      res.status(404).render('error.handlebars', { error });
+    } else { 
+      const productosRender = productos.map((producto) => {
+        return {
+          title: producto.title,
+          price: producto.price,
+          thumbnail: producto.thumbnail,
+          _id: producto._id
+        };
+      });
+      res.status(200).render('search.handlebars', { productos: productosRender });
+    }
   } catch (err) {
     logger.error(err.message);
     const customError = new Error(err.message);
@@ -137,3 +144,4 @@ export async function search(req, res, next) {
     next(customError);
   }
 }
+
