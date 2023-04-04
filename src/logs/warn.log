@@ -601,3 +601,14 @@
 {"level":"warn","message":"Acceso a ruta inexistente /src/public/img/icono_chat.png con el método GET"}
 {"level":"warn","message":"Acceso a ruta inexistente /src/public/img/icono_chat.png con el método GET"}
 {"level":"warn","message":"Acceso a ruta inexistente /src/public/img/icono_chat.png con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /loggerTest con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /loggerTest con el método GET"}
+{"level":"warn","message":"Contraseña inválida"}
+{"level":"warn","message":"Acceso a ruta inexistente /loggerTest con el método GET"}
+{"level":"warn","message":"Acceso a ruta inexistente /loggerTest con el método GET"}
+{
+  message: 'Acceso a ruta inexistente /productosee con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn ',
+  timestamp: '2023-04-04T23:21:49.274Z'
+}
