@@ -1,30 +1,38 @@
 import mongoose from 'mongoose';
+import validator from 'validator';
 import MongooseDelete from 'mongoose-delete';
 
-const user = new mongoose.Schema ({
+const userSchema = new mongoose.Schema ({
     fullname: {
         type: String, 
-        require: true
+        required: true
     },
     email: { 
         type: String, 
-        require: true, 
+        required: true, 
         unique: true, 
         index: true, 
-        validate: /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/ 
+        validate: [validator.isEmail, 'Invalid email address'] 
     },
     password: { 
         type: String, 
-        require: true,
+        required: true,
         minlength: 8 
     },
     phone: { 
         type: Number, 
-        require: true
+        required: true
     },
-},{ timestamps: true })
+    resetPasswordToken: {
+        type: String,
+        default: null
+    },
+    resetPasswordExpires: {
+        type: Date,
+        default: null
+    }
+}, { timestamps: true });
 
+userSchema.plugin(MongooseDelete, {deletedAt:true});
 
-user.plugin(MongooseDelete, {deletedAt:true})
-
-export default mongoose.model('User', user);
+export default mongoose.model('User', userSchema);

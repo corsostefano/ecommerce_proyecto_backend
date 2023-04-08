@@ -1,4 +1,5 @@
 import { logger } from '../logs/logger.logs.js';
+import Joi from 'joi';
 import {
   getUser,
   addNewUser,
@@ -6,6 +7,12 @@ import {
   uploadUser,
   deleteUser
 } from '../services/user.services.js';
+
+const schema = Joi.object({
+  name: Joi.string().required(),
+  email: Joi.string().email().required(),
+  password: Joi.string().required(),
+});
 
 export async function getAuthUser(req, res, next) {
   try {
@@ -22,6 +29,10 @@ export async function getAuthUser(req, res, next) {
 export async function registerUser(req, res, next) {
   try {
     const { body } = req;
+    const { error } = schema.validate(body);
+    if (error) {
+      throw new Error(error.details[0].message);
+    }
     const user = await addNewUser(body);
     res.json(user);
   } catch (err) {

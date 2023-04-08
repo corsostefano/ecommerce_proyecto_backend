@@ -26,7 +26,7 @@ loadWebPage()
 
 //Botón para Desconectarse de la sesión
 signOutButton.addEventListener('click', async () => {
-    const responseFetch = await fetch("http://localhost:8080/auth/sign-out", {
+    const responseFetch = await fetch("/auth/sign-out", {
         headers: {
             'Content-Type': 'application/json'
         },
@@ -65,7 +65,7 @@ function showMessage(data) {
 
 formChat.addEventListener("submit", async function (e) {
   e.preventDefault()
-  const userLog = await fetch("http://localhost:8080/users/me");
+  const userLog = await fetch("/users/me");
   const user = await userLog.json();
   const data = {
     author: {

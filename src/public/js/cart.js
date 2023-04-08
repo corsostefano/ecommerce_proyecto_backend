@@ -13,9 +13,9 @@ const buttonsCart = document.getElementById('buttons-cart');
 const messageCart = document.getElementById('message-cart');
 
 async function addExtrasCart() {
-    const userLog = await fetch("http://localhost:8080/users/me");
+    const userLog = await fetch("/users/me");
     const user = await userLog.json();
-    const cartLog = await fetch(`http://localhost:8080/carrito/${user.email}`);
+    const cartLog = await fetch(`/carrito/${user.email}`);
     const cart = await cartLog.json();
     let total = 0;
     cart.products.forEach((prod) => {
@@ -28,9 +28,9 @@ async function addExtrasCart() {
 
 async function loadWebPage() {
     loading.classList.remove('d-none');
-    const userLog = await fetch("http://localhost:8080/users/me");
+    const userLog = await fetch("/users/me");
     const user = await userLog.json();
-    const cartLog = await fetch(`http://localhost:8080/carrito/${user.email}`);
+    const cartLog = await fetch(`/carrito/${user.email}`);
     const cart = await cartLog.json();
     cart.products.forEach((prod) => {
         showProductsCart(prod);
@@ -49,7 +49,7 @@ loadWebPage()
 
 //Botón para Desconectarse de la sesión
 signOutButton.addEventListener('click', async () => {
-    const responseFetch = await fetch("http://localhost:8080/auth/sign-out", {
+    const responseFetch = await fetch("/auth/sign-out", {
         headers: {
             'Content-Type': 'application/json'
         },
@@ -84,18 +84,18 @@ function showProductsCart(data) {
 }
 
 async function deleteProductCart(product_id) {
-    const userLog = await fetch("http://localhost:8080/users/me");
+    const userLog = await fetch("/users/me");
     const user = await userLog.json();
-    const cartLog = await fetch(`http://localhost:8080/carrito/${user.email}`);
+    const cartLog = await fetch(`/carrito/${user.email}`);
     const cart = await cartLog.json();
-    let responseFetch = await fetch(`http://localhost:8080/carrito/${cart._id}/${product_id}`, {
+    let responseFetch = await fetch(`/carrito/${cart._id}/${product_id}`, {
         headers: {
             'Content-Type': 'application/json'
         },
         method: 'DELETE'
     });
     if (responseFetch.status === 200) {
-        const cartLog = await fetch(`http://localhost:8080/carrito/${user.email}`);
+        const cartLog = await fetch(`/carrito/${user.email}`);
         const cart = await cartLog.json();
         if (!cart.products.length) {
             deleteCart(cart._id);
@@ -112,7 +112,7 @@ async function deleteProductCart(product_id) {
 }
 
 async function deleteCart(cart_id) {
-    let responseFetch = await fetch(`http://localhost:8080/carrito/${cart_id}`, {
+    let responseFetch = await fetch(`/carrito/${cart_id}`, {
         headers: {
             'Content-Type': 'application/json'
         },
@@ -128,9 +128,9 @@ cartButton.addEventListener('click', async () => {
 });
 
 async function buyCart(cart_id, user_id) {
-    const userLog = await fetch("http://localhost:8080/users/me");
+    const userLog = await fetch("/users/me");
     const user = await userLog.json();
-    const cartLog = await fetch(`http://localhost:8080/carrito/${user.email}`);
+    const cartLog = await fetch(`/carrito/${user.email}`);
     const cart = await cartLog.json();
     let message = '';
     await cart.products.forEach((prod) => {
@@ -139,7 +139,7 @@ async function buyCart(cart_id, user_id) {
     const messageObject = { message };
     const dataJSON = JSON.stringify(messageObject);
     messageCart.innerText = 'Procesando compra...';
-    let responseFetch = await fetch(`http://localhost:8080/carrito/${cart_id}/${user_id}`, {
+    let responseFetch = await fetch(`/carrito/${cart_id}/${user_id}`, {
         headers: {
             'Content-Type': 'application/json',
             'Content-Length': dataJSON.length
@@ -153,7 +153,7 @@ async function buyCart(cart_id, user_id) {
             products: cart.products
         }
         const orderJSON = JSON.stringify(buyedOrder);
-        await fetch(`http://localhost:8080/carrito/order/new/${cart_id}`, {
+        await fetch(`/carrito/order/new/${cart_id}`, {
             headers: {
                 'Content-Type': 'application/json',
                 'Content-Length': dataJSON.length

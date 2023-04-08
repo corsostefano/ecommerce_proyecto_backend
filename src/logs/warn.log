@@ -612,3 +612,222 @@
   label: 'Esto es un warn ',
   timestamp: '2023-04-04T23:21:49.274Z'
 }
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-04T23:27:37.223Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-04T23:28:05.338Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username dwd@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-04T23:29:31.188Z'
+}
+{
+  message: 'Acceso a ruta inexistente /loggerTest con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-04T23:47:13.881Z'
+}
+{
+  message: 'Acceso a ruta inexistente /loggerTest con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-04T23:47:20.302Z'
+}
+{
+  message: 'Acceso a ruta inexistente /loggerTest con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-04T23:48:42.943Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username olga@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-04T23:54:49.045Z'
+}
+{
+  message: 'Fallo en el registro: el usuario con el username stefanocorso006@gmail.com ya existe',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-05T00:10:46.025Z'
+}
+{
+  message: 'Fallo en el registro: el usuario con el username stefanocorso6@gmail.com ya existe',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-05T00:11:47.371Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-06T23:37:52.013Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username gfgf@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-06T23:50:41.296Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username fef@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-06T23:50:59.459Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username fdsf@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-06T23:51:31.771Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username dfdf@gmsil.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:00:25.857Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 22@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:11:56.284Z'
+}
+{
+  message: 'No ha sido posible loguearse: User is not defined',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:12:11.884Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:19:09.627Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:19:14.846Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:19:16.865Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:19:17.479Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:19:17.982Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:19:18.078Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:19:18.141Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:19:20.031Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:19:22.642Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:19:51.255Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:35:13.914Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T00:36:08.643Z'
+}
+{
+  message: 'Fallo en el login: usuario no encontrado con el username 33@gmail.com',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-07T14:36:45.714Z'
+}
+{
+  message: 'No ha sido posible recuperar la contraseña: userInstance.getOne is not a function',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-08T12:22:38.291Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"stefanocorso6@gmail.com"',
+  kind: 'ObjectId',
+  value: 'stefanocorso6@gmail.com',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible obtener el elemento buscado de la base de datos  Cast to ObjectId failed for value "stefanocorso6@gmail.com" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "stefanocorso6@gmail.com" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-08T14:46:52.018Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-08T17:40:17.566Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-08T17:46:30.779Z'
+}

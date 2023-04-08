@@ -6,8 +6,9 @@ import {
   getAllUsers,
   getOneUser,
   updateUser,
-  deleteOneUser,
+  deleteOneUser
 } from "../../controllers/user.controller.js";
+
 
 const router = Router();
 
