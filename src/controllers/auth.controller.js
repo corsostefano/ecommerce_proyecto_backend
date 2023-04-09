@@ -94,7 +94,7 @@ export async function forgotPassword(req, res, next){
 
     const token = jwt.sign({ userId: user._id }, 'my-secret-key', { expiresIn: '1h' });
     user.resetPasswordToken = token;
-    user.resetPasswordExpires = Date.now() + 60 * 1000; // 1 minuto
+    user.resetPasswordExpires = Date.now() + 60 * 60 * 1000; // 1 hora
     await user.save();
 
     const resetPasswordUrl = `http://localhost:8080/auth/forgot-password/resetPassword?token=${token}`;
