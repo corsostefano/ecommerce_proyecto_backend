@@ -35,4 +35,8 @@ const userSchema = new mongoose.Schema ({
 
 userSchema.plugin(MongooseDelete, {deletedAt:true});
 
+userSchema.methods.setPassword = function(password) {
+    this.password = password;
+  };
+
 export default mongoose.model('User', userSchema);

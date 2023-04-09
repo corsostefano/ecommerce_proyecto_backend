@@ -831,3 +831,165 @@
   label: 'Esto es un warn',
   timestamp: '2023-04-08T17:46:30.779Z'
 }
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:10:06.337Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:17:45.302Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:18:04.114Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:18:42.006Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:18:59.410Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:19:20.604Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:19:34.855Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:19:57.352Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:20:42.795Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:21:02.769Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:38:32.150Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:38:46.426Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:38:58.022Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:40:37.649Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T11:41:02.345Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T12:25:03.932Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T12:25:17.802Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T12:25:52.804Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T12:26:06.000Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T12:27:00.814Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T12:27:22.586Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T13:32:12.691Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T13:32:40.172Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T13:49:49.157Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T13:50:51.101Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T13:51:22.135Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T13:51:28.099Z'
+}

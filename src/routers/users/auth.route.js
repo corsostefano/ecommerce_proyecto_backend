@@ -6,7 +6,8 @@ import {
   signOut,
   signUp,
   forgotPassword,
-  resetPassword
+  resetPassword,
+  renderResetPassword
 } from "../../controllers/auth.controller.js";
 
 const router = Router();
@@ -17,10 +18,8 @@ router.post("/sign-out", signOut);
 router.post("/sign-up", passport.authenticate("sign-up", { session: false}), signUp);
 router.post("/forgot-password", forgotPassword);
 router.post('/reset-password', resetPassword)
-router.get('/forgot-password/resetPassword', (req, res) => {
-  const { token } = req.query;
-  res.render('resetPassword.handlebars', { token });
-});
+router.get('/forgot-password/resetPassword',renderResetPassword);
+
 
 
 export default router;
