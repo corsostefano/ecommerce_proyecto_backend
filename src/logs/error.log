@@ -188,3 +188,9 @@
   label: 'Esto es un Error',
   timestamp: '2023-04-08T14:46:52.024Z'
 }
+{
+  message: 'Error al restablecer la contraseña: Operation `users.findOne()` buffering timed out after 10000ms',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-04-12T01:36:49.112Z'
+}

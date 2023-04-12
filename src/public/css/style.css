@@ -1,6 +1,8 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -41,4 +43,64 @@ body {
  #chat-icon:hover img {
     transform: scale(1.1);
  }
- 
+
+.formStyle{
+    background-color: #ffffff;
+    width: 450px;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.15)
+}
+.formLogin{
+    background-color: #ffffff;
+    width: 450px;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.15)
+}
+.formSignup{
+    background-color: #ffffff;
+    width: 600px;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.15)
+}
+label{
+    font-weight: 500;
+    color: #101030;
+}
+input{
+    display: block;
+    width: 100%;
+     margin-top: 5px;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    color: #101010
+}
+#password{
+    margin-bottom: 30px;
+}
+input[type= "password"]{
+    border: 2px solid "c2c2c2";
+}
+
+p{
+    font-size: 14px;
+    margin: 15px 0;
+    display: inline-block;
+    color: #000000;
+    padding: 5px 20px;    
+}

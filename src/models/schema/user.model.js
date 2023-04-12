@@ -30,6 +30,10 @@ const userSchema = new mongoose.Schema ({
     resetPasswordExpires: {
         type: Date,
         default: null
+    },
+    passwordHistory:{
+        type: [String], 
+        default: [] 
     }
 }, { timestamps: true });
 

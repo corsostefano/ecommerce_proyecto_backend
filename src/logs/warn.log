@@ -993,3 +993,207 @@
   label: 'Esto es un warn',
   timestamp: '2023-04-09T13:51:28.099Z'
 }
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T14:14:35.046Z'
+}
+{
+  message: 'Acceso a ruta inexistente /auth/forgot-password/js/formResetPassword.js con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T14:15:36.407Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T14:16:01.304Z'
+}
+{
+  message: 'Acceso a ruta inexistente /auth/forgot-password/js/formResetPassword.js con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T14:17:14.838Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T14:17:34.716Z'
+}
+{
+  message: 'Acceso a ruta inexistente /auth/forgot-password/js/formResetPassword.js con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-09T14:19:09.479Z'
+}
+{
+  message: 'Acceso a ruta inexistente /auth/forgot-password/formResetPassword.js con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T13:47:06.769Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T13:47:39.088Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T13:48:37.336Z'
+}
+{
+  message: 'Acceso a ruta inexistente /auth/forgot-password/formResetPassword.js con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T13:53:20.683Z'
+}
+{
+  message: 'Acceso a ruta inexistente /auth/forgot-password/formResetPassword.js con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T13:54:28.935Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T13:54:55.746Z'
+}
+{
+  message: 'Acceso a ruta inexistente /auth/forgot-password/formResetPassword.js con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T13:55:27.251Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T13:56:00.088Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T13:59:45.333Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T13:59:55.345Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T14:00:07.857Z'
+}
+{
+  message: 'Acceso a ruta inexistente /auth/forgot-password/formResetPassword.js con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T14:02:01.743Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T14:02:21.504Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T14:03:35.184Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T14:04:35.805Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-10T14:05:28.238Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-11T14:13:26.357Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-11T14:18:06.743Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-11T14:25:30.937Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-11T14:43:18.384Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-11T14:58:59.007Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-11T15:01:03.309Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-11T15:08:47.948Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-11T15:09:26.394Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-11T15:11:06.767Z'
+}
+{
+  message: 'Acceso a ruta inexistente /auth/check-password/Corso1234 con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-11T16:46:57.655Z'
+}
+{
+  message: 'Acceso a ruta inexistente /auth/check-password/Corso1234 con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-11T16:46:59.262Z'
+}
+{
+  message: 'Error al restablecer la contraseña: Operation `users.findOne()` buffering timed out after 10000ms',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-12T01:36:49.105Z'
+}
