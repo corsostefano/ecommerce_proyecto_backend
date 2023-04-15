@@ -1,0 +1,152 @@
+openapi: 3.0.0
+info:
+  title: API de Productos
+  version: 1.0.0
+paths:
+  /products:
+    get:
+      summary: Obtiene una lista de todos los productos
+      description: Obtiene una lista de todos los productos almacenados en la base de datos.
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+        401:
+          description: No autorizado
+    post:
+      summary: Agrega un nuevo producto
+      description: Agrega un nuevo producto a la base de datos.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Product'
+      responses:
+        201:
+          description: Creado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+        401:
+          description: No autorizado
+  /products/{id}:
+    get:
+      summary: Obtiene un producto por su ID
+      description: Obtiene un producto de la base de datos según su ID.
+      parameters:
+        - in: path
+          name: id
+          description: ID del producto a obtener
+          schema:
+            type: string
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+        401:
+          description: No autorizado
+    put:
+      summary: Actualiza un producto existente
+      description: Actualiza un producto de la base de datos según su ID.
+      parameters:
+        - in: path
+          name: id
+          description: ID del producto a actualizar
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Product'
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+        401:
+          description: No autorizado
+    delete:
+      summary: Elimina un producto existente
+      description: Elimina un producto de la base de datos según su ID.
+      parameters:
+        - in: path
+          name: id
+          description: ID del producto a eliminar
+          schema:
+            type: string
+      responses:
+        204:
+          description: Sin contenido
+        401:
+          description: No autorizado
+  /products/category/{category}:
+    get:
+      summary: Obtiene una lista de productos por categoría
+      description: Obtiene una lista de todos los productos que pertenecen a la categoría especificada.
+      parameters:
+        - in: path
+          name: category
+          description: Categoría de los productos a obtener
+          schema:
+            type: string
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+        401:
+          description: No autorizado
+  /images/{id}:
+    get:
+      summary: Obtiene la imagen de un producto por su ID
+      description: Obtiene la imagen de un producto de la base de datos según su ID.
+      parameters:
+        - in: path
+          name: id
+          description: ID del producto del cual se desea obtener la imagen
+          schema:
+            type: string
+      responses:
+        200:
+          description: OK
+          content:
+            image/*
+        401:
+          description: No autorizado
+components:
+  schemas:
+    Product:
+      type: object
+      required:
+        - title
+        - price
+        - thumbnail
+      properties:
+        _id:
+          type: string
+          description: ID del producto
+        title:
+          type: string
+          description: Título del producto
+        price:
+          type: number
+          description: Precio del producto
+        thumbnail:
+          type: string
+          description: URL de la imagen del producto

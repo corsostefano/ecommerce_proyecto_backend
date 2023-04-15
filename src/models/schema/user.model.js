@@ -34,6 +34,10 @@ const userSchema = new mongoose.Schema ({
     passwordHistory:{
         type: [String], 
         default: [] 
+    },
+    isAdmin: {
+        type: Boolean,
+        default: false
     }
 }, { timestamps: true });
 

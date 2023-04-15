@@ -97,7 +97,7 @@ export async function forgotPassword(req, res, next){
     user.resetPasswordExpires = Date.now() + 60 * 60 * 1000; // 1 hora
     await user.save();
 
-    const resetPasswordUrl = `http://localhost:8080/auth/forgot-password/resetPassword?token=${token}`;
+    const resetPasswordUrl = `http://localhost:${process.env.PORT}/auth/forgot-password/resetPassword?token=${token}`;
     const emailBody = `Hola ${user.name},\n\nHas solicitado restablecer tu contraseña. Haz clic en el siguiente enlace para continuar:\n\n${resetPasswordUrl}\n\nSi no has solicitado esta acción, simplemente ignora este mensaje.\n\nSaludos,\nEquipo de soporte`;
     await sendMail('Recuperación de contraseña', emailBody, user.email);
 

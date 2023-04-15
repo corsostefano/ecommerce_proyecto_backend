@@ -1197,3 +1197,189 @@
   label: 'Esto es un warn',
   timestamp: '2023-04-12T01:36:49.105Z'
 }
+{
+  message: 'Acceso a ruta inexistente /:6415e3b0f18b64433b0e8993/admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T11:47:01.264Z'
+}
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T19:17:16.762Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T19:17:28.198Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T20:28:28.865Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T20:36:15.516Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T20:42:49.595Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T20:49:06.984Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T21:38:02.954Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T21:38:27.584Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T21:49:47.747Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T21:50:02.758Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T21:50:31.473Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T21:56:29.768Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T21:56:38.496Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:05:52.569Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:10:03.723Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin/ con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:10:16.168Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:15:11.974Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin/panel con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:15:17.692Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:21:08.453Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin/panel con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:21:11.802Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:22:00.446Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin/panel con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:22:08.897Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin/panel con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:22:31.927Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin/panel con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:35:27.739Z'
+}
+{
+  message: 'Acceso a ruta inexistente /admin/panel con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-13T22:36:27.576Z'
+}
+{
+  message: 'Acceso a ruta inexistente /apidocs con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-14T21:14:20.416Z'
+}
+{
+  message: 'Acceso a ruta inexistente /apidocs con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-14T21:14:50.725Z'
+}
+{
+  message: 'Acceso a ruta inexistente /api-docs con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-14T21:24:52.451Z'
+}
+{
+  message: 'Acceso a ruta inexistente /api-docs con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-14T21:25:04.144Z'
+}
+{
+  message: 'Acceso a ruta inexistente /apidocs con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-15T13:59:50.666Z'
+}

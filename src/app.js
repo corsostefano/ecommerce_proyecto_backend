@@ -15,6 +15,8 @@ import { logger } from './logs/logger.logs.js';
 import pug from 'pug';
 import ejs from 'ejs';
 import compression from 'express-compression'
+import swaggerUiExpress from "swagger-ui-express";
+import swaggerJSDoc from "swagger-jsdoc";
 
 export const argv = minimist(process.argv.slice(2), {
     default: { cluster: false },
@@ -63,7 +65,28 @@ if (ENABLE_CLUSTER && cluster.isPrimary) {
     app.engine('ejs', ejs.renderFile);
     app.set('view engine', 'ejs');
     const errorViewPath = path.join(__dirname, 'views', 'error.ejs');
+    //Documentación de Api swagger
+    const swaggerOptions = {
+      definition: {
+        openapi: "3.0.0",
+        info: {
+          title: "Documentación de las APIs",
+          description: "APIs de usuarios y productos para Swagger",
+          version: "1.0.0",
+        },
+      },
+      apis: [`${__dirname}/docs/**/*.yaml`, `${__dirname}/products/products.route.js`],
+    };
     
+    const swaggerSpec = swaggerJSDoc(swaggerOptions);
+    
+    app.use(
+      "/api-docs",
+      swaggerUiExpress.serve,
+      swaggerUiExpress.setup(swaggerSpec)
+    );
+    
+      
     app.use('/', indexRouter)
 
     app.use((err, _, res, next) => {
