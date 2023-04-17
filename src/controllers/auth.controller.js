@@ -2,7 +2,8 @@ import { logger } from "../logs/logger.logs.js";
 import { sendMail } from '../utils/email.utils.js';
 import jwt from 'jsonwebtoken';
 import User from '../models/schema/user.model.js'
-import bcrypt from "bcryptjs/dist/bcrypt.js";
+import bcrypt from 'bcryptjs'
+//import bcrypt from "bcryptjs/dist/bcrypt.js";
 
 export async function getCookie(req, res, next) {
   try {
