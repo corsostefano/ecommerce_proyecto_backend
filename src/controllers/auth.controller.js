@@ -85,7 +85,7 @@ export async function signUp(req, res) {
   }
 }
 
-export async function forgotPassword(req, res, next){
+export async function forgotPassword(req, res, next) {
   try {
     const { email } = req.body;
     const user = await User.findOne({ email });
@@ -98,7 +98,8 @@ export async function forgotPassword(req, res, next){
     user.resetPasswordExpires = Date.now() + 60 * 60 * 1000; // 1 hora
     await user.save();
 
-    const resetPasswordUrl = `${req.protocol}://${req.hostname}:${process.env.PORT}/auth/forgot-password/resetPassword?token=${token}`;
+    const baseUrl = process.env.BASE_URL || `http://localhost:${process.env.PORT}`;
+    const resetPasswordUrl = `${baseUrl}/auth/forgot-password/resetPassword?token=${token}`;
     const emailBody = `Hola ${user.name},\n\nHas solicitado restablecer tu contraseña. Haz clic en el siguiente enlace para continuar:\n\n${resetPasswordUrl}\n\nSi no has solicitado esta acción, simplemente ignora este mensaje.\n\nSaludos,\nEquipo de soporte`;
     await sendMail('Recuperación de contraseña', emailBody, user.email);
 
@@ -107,6 +108,7 @@ export async function forgotPassword(req, res, next){
     next(err)
   }
 }
+
 
 export async function resetPassword(req, res, next) {
   try {
