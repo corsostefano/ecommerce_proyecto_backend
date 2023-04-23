@@ -3,7 +3,7 @@ import { sendMail } from '../utils/email.utils.js';
 import jwt from 'jsonwebtoken';
 import User from '../models/schema/user.model.js'
 import bcrypt from 'bcryptjs'
-//import bcrypt from "bcryptjs/dist/bcrypt.js";
+
 
 export async function getCookie(req, res, next) {
   try {
@@ -55,7 +55,7 @@ export async function signOut(_, res, next) {
   }
 }
 
-export async function signUp(req, res) {
+export async function signUp(req, res, next) {
   try {
     const { user } = req;
     const timestamp = new Date();
@@ -100,7 +100,7 @@ export async function forgotPassword(req, res, next) {
 
     const baseUrl = process.env.BASE_URL || `http://localhost:${process.env.PORT}`;
     const resetPasswordUrl = `${baseUrl}/auth/forgot-password/resetPassword?token=${token}`;
-    const emailBody = `Hola ${user.name},\n\nHas solicitado restablecer tu contraseña. Haz clic en el siguiente enlace para continuar:\n\n${resetPasswordUrl}\n\nSi no has solicitado esta acción, simplemente ignora este mensaje.\n\nSaludos,\nEquipo de soporte`;
+    const emailBody = `Hola ${user.fullname},\n\nHas solicitado restablecer tu contraseña. Haz clic en el siguiente enlace para continuar:\n\n${resetPasswordUrl}\n\nSi no has solicitado esta acción, simplemente ignora este mensaje.\n\nSaludos,\nEquipo de soporte`;
     await sendMail('Recuperación de contraseña', emailBody, user.email);
 
     res.status(200).json({ message: "Se ha enviado un correo electrónico con las instrucciones para restablecer la contraseña" });

@@ -1383,3 +1383,21 @@
   label: 'Esto es un warn',
   timestamp: '2023-04-15T13:59:50.666Z'
 }
+{
+  message: 'Acceso a ruta inexistente /products con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-22T18:39:15.614Z'
+}
+{
+  message: 'Acceso a ruta inexistente /products con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-22T18:39:15.769Z'
+}
+{
+  message: 'Acceso a ruta inexistente /products con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-22T18:41:37.221Z'
+}

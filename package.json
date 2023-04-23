@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon --inspect ./src/app.js",
-    "start": "node ./src/app.js"
+    "start": "node ./src/app.js",
+    "test": "mocha ./test"
   },
   "keywords": [],
   "author": "",
@@ -43,8 +44,12 @@
     "winston": "^3.8.2"
   },
   "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
     "eslint": "^8.36.0",
-    "nodemon": "^2.0.20"
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
   },
   "engines": {
     "node": "16.6.1"

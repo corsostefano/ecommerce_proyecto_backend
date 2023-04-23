@@ -108,3 +108,5 @@ if (ENABLE_CLUSTER && cluster.isPrimary) {
 
     server.on("error", (error) => logger.error(`Error en servidor ${error}`));
 }
+
+export default app;
