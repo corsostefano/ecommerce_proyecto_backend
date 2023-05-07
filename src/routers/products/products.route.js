@@ -9,8 +9,9 @@ import {
     updateProduct,
     deleteProduct,
     indexProducts,
-    search,
+    search
 } from '../../controllers/product.controller.js';
+import { upload } from '../../middleware/uploadMulter.middleware.js';
 
 const router = Router();
 
@@ -19,9 +20,10 @@ router.get('/search', verifyToken, search);
 router.get('/all', verifyToken, getAllProducts);
 router.get('/category/:category', verifyToken, getByCategory);
 router.get('/images/:id', verifyToken, getImageProduct);
-router.post('/', verifyToken, addNewProduct);
+router.post('/', verifyToken, upload.single('thumbnail'), addNewProduct);
 router.get('/:id', verifyToken, getProduct);
 router.put('/:id', verifyToken, updateProduct);
 router.delete('/:id', verifyToken, deleteProduct);
+
 
 export default router;

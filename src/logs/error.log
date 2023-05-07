@@ -194,3 +194,241 @@
   label: 'Esto es un Error',
   timestamp: '2023-04-12T01:36:49.112Z'
 }
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-04-25T17:40:04.015Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-04-25T17:46:37.221Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-04-25T18:42:16.196Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-04-25T18:50:44.618Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-04-25T19:05:58.966Z'
+}
+{
+  message: '"phone" is not allowed',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-04-25T19:11:21.587Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-04-25T19:53:24.646Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-04-25T19:59:02.545Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"vip-section"',
+  kind: 'ObjectId',
+  value: 'vip-section',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible obtener el elemento buscado de la base de datos  Cast to ObjectId failed for value "vip-section" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "vip-section" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T10:28:46.549Z'
+}
+{
+  message: 'next is not defined',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T10:28:46.552Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"vip-section"',
+  kind: 'ObjectId',
+  value: 'vip-section',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible obtener el elemento buscado de la base de datos  Cast to ObjectId failed for value "vip-section" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "vip-section" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T10:48:13.754Z'
+}
+{
+  message: 'next is not defined',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T10:48:13.768Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T12:18:22.641Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T12:39:05.240Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T12:39:15.545Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T12:50:06.832Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T12:50:12.342Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T12:57:19.346Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T12:57:35.046Z'
+}
+{
+  message: "Cannot read property 'type' of null",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T16:29:52.558Z'
+}
+{
+  message: 'User not found',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T16:35:37.319Z'
+}
+{
+  message: 'User not found',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T16:38:47.673Z'
+}
+{
+  message: 'User not found',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-04T16:41:16.029Z'
+}
+{
+  message: 'Debe subir una imagen.',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-05T11:53:12.665Z'
+}
+{
+  message: 'productServices.createProduct is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-05T14:45:08.469Z'
+}
+{
+  message: 'productServices.createProduct is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-05T14:45:22.500Z'
+}
+{
+  message: 'productServices.createProduct is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-05T14:58:11.882Z'
+}
+{
+  message: 'Cannot set headers after they are sent to the client',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-05T16:33:48.890Z'
+}
+{
+  message: "Cannot read property 'then' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-05T16:39:31.639Z'
+}
+{
+  message: "Cannot read property 'then' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-05T16:40:27.714Z'
+}
+{
+  message: 'Product is not defined',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-05T16:44:39.072Z'
+}
+{
+  message: 'alert is not defined',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-05T16:48:29.340Z'
+}
+{
+  message: 'alert is not defined',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-05T17:50:41.164Z'
+}

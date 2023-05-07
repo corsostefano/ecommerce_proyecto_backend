@@ -23,36 +23,43 @@
     </form>
   </div>
   <div id="signup-div" class="border border-dark mt-5 bg-primary rounded d-none">
-    <form id="signup-form" class="formSignup">
-      <div class="mb-3 row">
-        <div class="col">
-          <label for="inputName" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="inputName" required>
-        </div>
-        <div class="col">
-          <label for="inputLastname" class="form-label">Apellido</label>
-          <input type="text" class="form-control" id="inputLastname" required>
-        </div>
+  <form id="signup-form" class="formSignup">
+    <div class="mb-3 row">
+      <div class="col">
+        <label for="inputName" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="inputName" required>
       </div>
-      <div class="mb-3">
-        <label for="inputPhone" class="form-label">Teléfono</label>
-        <input type="number" class="form-control" id="inputPhone" required>
+      <div class="col">
+        <label for="inputLastname" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="inputLastname" required>
       </div>
-      <div class="mb-3">
-        <label for="inputEmail1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" required>
-      </div>
-      <div class="mb-3">
-        <label for="inputPassword1" class="form-label">Contraseña</label>
-        <input type="password" class="form-control" id="inputPassword1" required>
-      </div>
-      <div class="mb-3">
-        <label for="inputPassword2" class="form-label">Repetir Contraseña</label>
-        <input type="password" class="form-control" id="inputPassword2" required>
-      </div>
-      <button type="submit" class="btn btn-primary btn-lg">Registrarse</button>
-      <div id="text-error-register"></div>
-    </form>
-  </div>
+    </div>
+    <div class="mb-3">
+      <label for="inputPhone" class="form-label">Teléfono</label>
+      <input type="number" class="form-control" id="inputPhone" required>
+    </div>
+    <div class="mb-3">
+      <label for="inputEmail1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" required>
+    </div>
+    <div class="mb-3">
+      <label for="inputPassword1" class="form-label">Contraseña</label>
+      <input type="password" class="form-control" id="inputPassword1" required>
+    </div>
+    <div class="mb-3">
+      <label for="inputPassword2" class="form-label">Repetir Contraseña</label>
+      <input type="password" class="form-control" id="inputPassword2" required>
+    </div>
+    <div class="mb-3">
+      <label for="inputType" class="form-label">Tipo de Usuario</label>
+      <select class="form-control" id="inputType" required>
+        <option value="normal">Normal</option>
+        <option value="VIP">VIP/Premium</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary btn-lg">Registrarse</button>
+    <div id="text-error-register"></div>
+  </form>
+</div>
 </section>
 <script src="./js/index.js"></script>

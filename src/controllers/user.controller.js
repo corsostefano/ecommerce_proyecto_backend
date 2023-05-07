@@ -9,7 +9,7 @@ import {
 } from '../services/user.services.js';
 
 const schema = Joi.object({
-  name: Joi.string().required(),
+  fullname: Joi.string().required(),
   email: Joi.string().email().required(),
   password: Joi.string().required(),
 });
@@ -33,7 +33,7 @@ export async function registerUser(req, res, next) {
     if (error) {
       throw new Error(error.details[0].message);
     }
-    const user = await addNewUser(body);
+    const user = await addNewUser({...body, type: body.type});
     res.json(user);
   } catch (err) {
     logger.error(err.message);
@@ -102,4 +102,3 @@ export async function deleteOneUser(req, res, next) {
     next(customError);
   }
 }
-

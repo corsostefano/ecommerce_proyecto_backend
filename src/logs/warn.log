@@ -1401,3 +1401,805 @@
   label: 'Esto es un warn',
   timestamp: '2023-04-22T18:41:37.221Z'
 }
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-25T17:40:04.011Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-25T17:46:37.215Z'
+}
+{
+  message: 'Acceso a ruta inexistente /api/users/me con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-25T18:40:54.290Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-25T18:42:16.189Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-25T18:50:44.613Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-25T19:05:58.961Z'
+}
+{
+  message: '"phone" is not allowed',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-25T19:11:21.582Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-25T19:53:24.637Z'
+}
+{
+  message: '"name" is required',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-25T19:59:02.539Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-26T19:09:14.339Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-26T19:14:05.949Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-26T19:14:09.742Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-04-26T19:14:16.777Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T10:27:27.872Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"vip-section"',
+  kind: 'ObjectId',
+  value: 'vip-section',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible obtener el elemento buscado de la base de datos  Cast to ObjectId failed for value "vip-section" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "vip-section" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T10:28:46.530Z'
+}
+{
+  message: 'next is not defined',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T10:28:46.552Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T10:28:47.625Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"vip-section"',
+  kind: 'ObjectId',
+  value: 'vip-section',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible obtener el elemento buscado de la base de datos  Cast to ObjectId failed for value "vip-section" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "vip-section" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T10:48:13.746Z'
+}
+{
+  message: 'next is not defined',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T10:48:13.767Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T10:48:15.076Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T10:48:21.793Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip/vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:37:31.697Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip/vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:38:22.950Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:45:31.779Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip/ con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:45:41.792Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:46:32.531Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:46:48.877Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:46:57.301Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:47:31.805Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:50:57.607Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section%20 con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:53:55.208Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section%20 con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:54:15.658Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:54:45.271Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:54:46.685Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T11:54:51.409Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:00:53.069Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:01:03.689Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:02:28.100Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:06:42.661Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section/vip con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:06:46.357Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip/vip1 con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:07:51.638Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:08:07.162Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:08:21.921Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:11:42.872Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:12:16.566Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:17:03.523Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:18:22.629Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:18:24.182Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:24:25.163Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip-section con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:24:44.137Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:25:07.170Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:36:28.284Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:39:05.231Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:39:06.774Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:39:15.543Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:39:16.045Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:50:06.820Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:50:09.203Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:50:12.341Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:50:12.957Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:57:19.316Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:57:20.802Z'
+}
+{
+  message: "Error al acceder a la sección VIP: Cannot read property 'type' of undefined",
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:57:35.045Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T12:57:35.892Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T13:13:54.228Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T13:16:20.384Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T13:16:22.486Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T15:42:07.772Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T15:46:55.902Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T15:49:36.799Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T15:50:12.394Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T15:50:13.466Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T15:50:31.561Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T15:57:04.224Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:14:31.858Z'
+}
+{
+  message: "Cannot read property 'type' of null",
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:29:52.543Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:29:53.069Z'
+}
+{
+  message: 'User not found',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:35:37.275Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:35:38.435Z'
+}
+{
+  message: 'User not found',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:38:47.664Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:38:48.269Z'
+}
+{
+  message: 'User not found',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:41:16.027Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:41:16.540Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:53:45.588Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:54:18.336Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:55:34.787Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T16:55:37.680Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T17:07:37.678Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T17:07:39.880Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T17:14:00.545Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T17:21:40.184Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-04T20:55:42.728Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T09:51:51.518Z'
+}
+{
+  message: 'Acceso a ruta inexistente /products/new con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T11:48:33.052Z'
+}
+{
+  message: 'Debe subir una imagen.',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T11:53:12.578Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T11:53:13.149Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T14:44:05.060Z'
+}
+{
+  message: 'productServices.createProduct is not a function',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T14:45:08.468Z'
+}
+{
+  message: 'productServices.createProduct is not a function',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T14:45:22.498Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T14:45:23.052Z'
+}
+{
+  message: 'productServices.createProduct is not a function',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T14:58:11.872Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T14:58:12.204Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T15:05:22.114Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T15:43:31.204Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T15:44:13.641Z'
+}
+{
+  message: 'Acceso a ruta inexistente /products/645524eaf5361dc6c1a1fc26?success=true con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T15:46:50.736Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T15:47:46.148Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T15:57:21.453Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T15:58:55.717Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T15:58:59.001Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:00:05.570Z'
+}
+{
+  message: 'Cannot set headers after they are sent to the client',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:33:48.876Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:33:49.266Z'
+}
+{
+  message: "Cannot read property 'then' of undefined",
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:39:31.632Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:39:31.976Z'
+}
+{
+  message: "Cannot read property 'then' of undefined",
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:40:27.713Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:40:28.022Z'
+}
+{
+  message: 'Product is not defined',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:44:39.030Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:44:39.405Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:47:54.134Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:47:58.158Z'
+}
+{
+  message: 'alert is not defined',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T16:48:29.339Z'
+}
+{
+  message: 'alert is not defined',
+  level: 'error',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T17:50:41.154Z'
+}
+{
+  message: 'Acceso a ruta inexistente /favicon.ico con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T18:55:29.715Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip/managerProduct.js con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T18:55:53.195Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip/managerProduct.js con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T19:00:51.971Z'
+}
+{
+  message: 'Acceso a ruta inexistente /vip/managerProduct.js con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-05T19:00:52.257Z'
+}

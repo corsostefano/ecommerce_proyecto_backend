@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <h1>Crear producto VIP</h1>
+      <form id="addProductForm" method="POST" enctype="multipart/form-data" action="/productos">
+        <div class="form-group">
+          <label for="title">Título</label>
+          <input type="text" name="title" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="price">Precio</label>
+          <input type="number" name="price" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="thumbnail">Imagen</label>
+          <input type="file" name="thumbnail" class="form-control-file" accept="image/*" required>
+        </div>
+        <input type="hidden" name="token" value="{{token}}">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="/js/addProduct.js"></script>

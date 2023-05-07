@@ -1,5 +1,7 @@
 import { logger } from '../logs/logger.logs.js';
 import productServices from '../services/product.service.js';
+import cloudinary from '../config/cloudinary.config.js';
+
 
 export async function indexProducts(_, res, next) {
   try {
@@ -31,8 +33,8 @@ export async function getByCategory(req, res, next) {
     const products = await productServices.getAll();
     const filteredProducts = products.filter(prod => prod.category === category);
     if (!filteredProducts.length) {
-      logger.warn('No existe la categoría solicitada de juegos de mesa');
-      const customError = new Error('No existe la categoría solicitada de juegos de mesa');
+      logger.warn('No existe la categoría solicitada');
+      const customError = new Error('No existe la categoría solicitada ');
       customError.id = 3;
       next(customError);      
     } else {
@@ -63,9 +65,23 @@ export async function getImageProduct(req, res, next) {
 
 export async function addNewProduct(req, res, next) {
   try {
-    const data = req.body;
-    const response = await productServices.addProduct(data);
-    res.status(201).json(response);
+    const { title, price } = req.body;
+    const thumbnail = req.file;
+
+    if (!thumbnail) {
+      throw new Error('No se cargó ninguna imagen.');
+    }
+
+    const result = await cloudinary.uploader.upload(thumbnail.path);
+    const thumbnailUrl = result.secure_url;
+    const newProduct = {
+      title,
+      price,
+      thumbnail: thumbnailUrl
+    };
+
+    await productServices.addProduct(newProduct);
+    res.redirect('/productos');
   } catch (err) {
     logger.error(err.message);
     const customError = new Error(err.message);
@@ -73,6 +89,7 @@ export async function addNewProduct(req, res, next) {
     next(customError);
   }
 }
+
 
 export async function getProduct(req, res, next) {
   try {
@@ -89,33 +106,33 @@ export async function getProduct(req, res, next) {
     next(customError);
   }
 }
-
 export async function updateProduct(req, res, next) {
   try {
-    let id = req.params.id;
-    let data = req.body;
+    const id = req.params.id;
+    const data = req.body;
     const product = await productServices.updateProductById(id, data);
-    res.status(201).json(product);
+    res.status(200).json(product);
   } catch (err) {
     logger.error(err.message);
     const customError = new Error(err.message);
-    customError.id = 3;
+    customError.statusCode = 400;
     next(customError);
   }
 }
 
 export async function deleteProduct(req, res, next) {
   try {
-    const { id } = req.params;
+    const id = req.params.id;
     const response = await productServices.deleteProductById(id);
-    res.status(200).json(response);
+    res.status(204).end(response);
   } catch (err) {
     logger.error(err.message);
     const customError = new Error(err.message);
-    customError.id = 3;
+    customError.statusCode = 400;
     next(customError);
   }
 }
+
 
 export async function search(req, res, next) {
   try {

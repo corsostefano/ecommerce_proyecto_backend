@@ -3,6 +3,7 @@ const socket = io();
 //NAVBAR
 const linkProducts = document.getElementById('products-link-button');
 const linkChat = document.getElementById('chat-link-button');
+const linkVipSection = document.getElementById('vip-link-button');
 const outAccount = document.getElementById('out-account');
 const selectSignInButton = document.getElementById('nav-signin');
 const selectSignUpButton = document.getElementById('nav-signup');
@@ -45,6 +46,9 @@ linkProducts.addEventListener('click', async () => {
 //Boton para linkear a la vista de chat
 linkChat.addEventListener('click', async () => {
     window.location.replace("/chat");
+});
+linkVipSection.addEventListener('click', async () => {
+  window.location.replace("/vip");
 });
 
 //CENTRO DE MENSAJES - CHAT

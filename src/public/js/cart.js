@@ -78,7 +78,7 @@ function showProductsCart(data) {
         </td>
         <td>${data.quantity}</td>
         <td>
-            <button id='deleteProduct${data._id}' onclick="deleteProductCart('${data._id}')" class='btn btn-outline-danger'>X</button>
+            <button id='deleteProduct${data._id}' onclick="deleteProductCart('${data._id}')" class='btn btn-outline-danger'>Eliminar</button>
         </td>`;
     cartProducts.appendChild(item);
 }

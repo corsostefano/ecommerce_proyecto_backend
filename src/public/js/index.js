@@ -1,5 +1,6 @@
 const linkProducts = document.getElementById('products-link-button');
 const linkChat = document.getElementById('chat-link-button');
+const linkVipSection = document.getElementById('vip-link-button');
 const inputSearch= document.getElementById('input-search');
 const outAccount = document.getElementById('out-account');
 const selectSignInButton = document.getElementById('nav-signin');
@@ -19,10 +20,10 @@ const emailSignup = document.getElementById('inputEmail1');
 const passwordSignup = document.getElementById('inputPassword1');
 const passwordToCompare = document.getElementById('inputPassword2');
 const errorMessage = document.getElementById('text-error-register');
+const inputType = document.getElementById('inputType')
 const forgotPasswordButton = document.getElementById("forgot-password-button");
 const forgotPasswordForm = document.getElementById("forgot-password-form");
 const forgotPasswordFormInner = document.getElementById('forgot-password-form-inner');
-
 
 async function loadWebPage() {
     const userLog = await fetch("/users/me");
@@ -36,7 +37,8 @@ async function loadWebPage() {
             inAccount.classList.remove('d-none');
             linkProducts.classList.remove('d-none');
             linkChat.classList.remove('d-none');
-            inputSearch.classList.remove('d-none')
+            linkVipSection.classList.remove('d-none');
+            inputSearch.classList.remove('d-none');
         }, 1000);
     }
     else {
@@ -48,6 +50,7 @@ async function loadWebPage() {
             inAccount.classList.add('d-none');
             linkProducts.classList.add('d-none');
             linkChat.classList.add('d-none');
+            linkVipSection.classList.add('d-none');
             inputSearch.classList.add('d-none');
         }, 1000);
     }
@@ -100,18 +103,15 @@ function isString(value) {
     return typeof value === 'string';
 }
 
-
 function isEmail(value) {
     
     const emailRegex = /\S+@\S+\.\S+/;
     return emailRegex.test(value);
 }
 
-
 function hasMinLength(value, minLength) {
     return value.length >= minLength;
 }
-
 
 function validateForm() {
     let isValid = true;
@@ -134,47 +134,47 @@ function validateForm() {
     return isValid;
 }
 
-
 signupForm.addEventListener('submit', async (event) => {
-    event.preventDefault();
-    if (validateForm()) {
-        errorMessage.innerHTML = '<h5>Procesando registro...</h5>';
-        const data = {
-            email: emailSignup.value,
-            password: passwordSignup.value,
-            fullname: `${nameSignup.value} ${lastnameSignup.value}`,
-            phone: phoneSignup.value,
-        };
-        const dataJSON = JSON.stringify(data);
-        let responseFetch = await fetch("/auth/sign-up", {
-            headers: {
-                'Content-Type': 'application/json',
-                'Content-Length': dataJSON.length
-            },
-            method: 'POST',
-            body: dataJSON
-        });
-        if (responseFetch.status === 200) {
-            errorMessage.innerHTML = '<h5 style="color:green">Registro exitoso</h5>';
-            await responseFetch.json();
-            setTimeout(() => {
-                signupDiv.classList.add('d-none');
-                signinDiv.classList.remove('d-none');
-            }, 1000);
-        }
-        else {
-            signupDiv.classList.add('d-none');
-        }
-        setTimeout(() => {
-            nameSignup.value = '';
-            lastnameSignup.value = '';
-            phoneSignup.value = '';
-            emailSignup.value = '';
-            passwordSignup.value = '';
-            passwordToCompare.value = '';
-            errorMessage.innerHTML = '';
-        }, 1000);
-    }
+  event.preventDefault();
+  if (validateForm()) {
+      errorMessage.innerHTML = '<h5>Procesando registro...</h5>';
+      const data = {
+          email: emailSignup.value,
+          password: passwordSignup.value,
+          fullname: `${nameSignup.value} ${lastnameSignup.value}`,
+          phone: phoneSignup.value,
+          type: inputType.value
+      };
+      const dataJSON = JSON.stringify(data);
+      let responseFetch = await fetch("/auth/sign-up", {
+          headers: {
+              'Content-Type': 'application/json',
+              'Content-Length': dataJSON.length
+          },
+          method: 'POST',
+          body: dataJSON
+      });
+      if (responseFetch.status === 200) {
+          errorMessage.innerHTML = '<h5 style="color:green">Registro exitoso</h5>';
+          await responseFetch.json();
+          setTimeout(() => {
+              signupDiv.classList.add('d-none');
+              signinDiv.classList.remove('d-none');
+          }, 1000);
+      }
+      else {
+          signupDiv.classList.add('d-none');
+      }
+      setTimeout(() => {
+          nameSignup.value = '';
+          lastnameSignup.value = '';
+          phoneSignup.value = '';
+          emailSignup.value = '';
+          passwordSignup.value = '';
+          passwordToCompare.value = '';
+          errorMessage.innerHTML = '';
+      }, 1000);
+  }
 });
 
 forgotPasswordButton.addEventListener("click", function() {
@@ -212,3 +212,4 @@ forgotPasswordButton.addEventListener("click", function() {
       alert('Ha ocurrido un error: ' + error);
     });
   });
+
