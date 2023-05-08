@@ -1,16 +1,15 @@
 variables de entorno:
 
-    PORT= 8080
+    PORT= 8080=
 
-    MONGO_PASS=9WyVZtWQqxpHuVzD
+    MONGO_PASS=
 
-    PASS_GMAIL=ygdrbmigiswanuog
+    PASS_GMAIL=
 
-    USER_GMAIL='stefanoecommercepb@gmail.com'
+    USER_GMAIL=
 
+    CLOUD_NAME=
 
-url deploy glitch :
+    API_KEY=
 
-https://destiny-nebula-coach.glitch.me
-
-https://glitch.com/edit/#!/destiny-nebula-coach
+    API_SECRET
