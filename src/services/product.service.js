@@ -11,8 +11,13 @@ async function addProduct(product) {
 }
 
 async function getProductById(id) {
-  return await repository.getProdByid(id);
+  const product = await repository.getProdById(id);
+  if (!product) {
+    throw new Error('No se encontró el producto');
+  }
+  return product;
 }
+
 
 async function updateProductById(id, data) {
   return await repository.update(id, data);
@@ -24,6 +29,9 @@ async function deleteProductById(id) {
 async function searchProductByQuery(query){
   return await repository.searchProducts(query)
 }
+async function getProductsByUser(userId) {
+  return await repository.getProductsByUser(userId);
+}
 
 export default {
   getAll,
@@ -31,5 +39,6 @@ export default {
   getProductById,
   updateProductById,
   deleteProductById,
-  searchProductByQuery
+  searchProductByQuery,
+  getProductsByUser
 };

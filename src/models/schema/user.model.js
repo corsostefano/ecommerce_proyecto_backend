@@ -39,6 +39,14 @@ const userSchema = new mongoose.Schema({
     type: String,
     enum: ['normal', 'VIP'],
     default: 'normal'
+  },
+  isAdmin:{
+    type: Boolean,
+    default: false
+  },
+  lastLogin: {
+    type: Date,
+    default: null
   }
 }, { timestamps: true });
 
@@ -50,5 +58,4 @@ userSchema.methods.setPassword = function(password) {
 userSchema.methods.isVIP = function() {
   return this.type === 'VIP';
 };
-
 export default mongoose.model('User', userSchema);

@@ -65,8 +65,19 @@ export async function getCart(req, res, next) {
 
 export async function addProductToCart(req, res, next) {
   try {
-    let product = req.body;
-    let cartId = req.params.id;
+    const { id } = req.params;
+    const user = req.user;
+    const product = req.body;
+    const cartId = id;
+
+    // Verificar si product.createdBy y user._id tienen un valor
+    if (typeof product.createdBy !== 'undefined' && typeof user._id !== 'undefined' && product.createdBy.toString() === user._id.toString()) {
+      // El usuario está intentando comprar su propio producto
+      const error = new Error('No puedes comprar tu propio producto.');
+      error.statusCode = 403; // Código de estado HTTP 403: Prohibido
+      throw error;
+    }
+
     const addProduct = await cartServices.uploadCartById(cartId, product);
     logger.info('Se añadió un nuevo producto al carrito');
     res.status(200).json(addProduct);

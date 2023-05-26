@@ -16,7 +16,7 @@ export default class ProductRepository {
     }
   }
 
-  async getProdByid(id) {
+  async getProdById(id) {
     const data = await this.dao.getOneById(id);
     if (data) {
       return new ProductDTO(data);
@@ -37,7 +37,18 @@ export default class ProductRepository {
   async delete(id) {
     return await this.dao.deleteById(id);
   }
+
   async searchProducts(query){
     return await this.dao.search(query)
+  }
+
+  async getProductsByUser(userId) {
+    const data = await this.dao.getByUser(userId);
+    if (data) {
+      const dataDTO = data.map((prod) => new ProductDTO(prod));
+      return dataDTO;
+    } else {
+      return null;
+    }
   }
 }

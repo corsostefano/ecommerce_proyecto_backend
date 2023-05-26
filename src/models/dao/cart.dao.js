@@ -10,7 +10,7 @@ export default class CartDAO extends MongoDBContainer {
         this.model = model;
     }
 
-    async getOneByEmail(email) {
+    async getOneByEmail(email, next) {
         try {
             const emailStr = email.toString();
             return await this.model.findOne({email: emailStr});
@@ -22,7 +22,7 @@ export default class CartDAO extends MongoDBContainer {
         }
     }
 
-    async updateCartById(idCart, prod) {
+    async updateCartById(idCart, prod, next) {
         try {
             return this.model.findOneAndUpdate({ _id: idCart }, { $push: { products: prod } });
         } catch (err) {
@@ -33,7 +33,7 @@ export default class CartDAO extends MongoDBContainer {
         }
     }
 
-    async updateQuantityOfAProduct(id, prod) {
+    async updateQuantityOfAProduct(id, prod, next) {
         try {
             return this.model.findOneAndUpdate({ _id: id, "products._id": prod._id }, { $inc: { "products.$.quantity": 1 } });
         } catch (err) {
@@ -44,7 +44,7 @@ export default class CartDAO extends MongoDBContainer {
         }
     }
 
-    async deleteProductByIdFromCart(id, product_id) {
+    async deleteProductByIdFromCart(id, product_id, next) {
         try {
             return await this.model.updateOne({ _id: id }, { $pull: { products: { _id: product_id } } });
         } catch (err) {

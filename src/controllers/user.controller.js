@@ -1,22 +1,24 @@
 import { logger } from '../logs/logger.logs.js';
-import Joi from 'joi';
+import {schema} from '../middleware/joi.middleware.js'
+import mongoose from 'mongoose';
+import { sendMail } from '../utils/email.utils.js';
 import {
   getUser,
   addNewUser,
   getUsers,
   uploadUser,
-  deleteUser
+  deleteUser,
+  getUsersInactiveForTwoDays
 } from '../services/user.services.js';
 
-const schema = Joi.object({
-  fullname: Joi.string().required(),
-  email: Joi.string().email().required(),
-  password: Joi.string().required(),
-});
 
 export async function getAuthUser(req, res, next) {
   try {
     const user = await getUser(req.user.id);
+
+    await uploadUser(user._id, { lastLogin: new Date() });
+    
+
     res.json(user);
   } catch (err) {
     logger.error(err.message);
@@ -73,12 +75,12 @@ export async function getOneUser(req, res, next) {
 
 export async function updateUser(req, res, next) {
   try {
-    const { params: { id }, body } = req
-    const { modifiedCount, matchedCount } = uploadUser(id, body)
+    const { params: { id }, body } = req;
+    const { modifiedCount, matchedCount } = await uploadUser(id, body); 
     if (!modifiedCount || !matchedCount) {
-      return res.status(404).end()
+      return res.status(404).end();
     }
-    res.status(204).end()
+    res.status(204).end();
   } catch (err) {
     logger.error(err.message);
     const customError = new Error(err.message);
@@ -89,12 +91,44 @@ export async function updateUser(req, res, next) {
 
 export async function deleteOneUser(req, res, next) {
   try {
-    const { params: { id } } = req
-    const { deletedCount } = deleteUser(id)
-    if (!deletedCount) {
-      return res.status(404).end()
+    const { params: { id } } = req;
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json({ message: 'ID de usuario inválido' });
     }
-    res.status(204).end()
+    const deletedCount = await deleteUser(id); 
+    if (deletedCount === 0) {
+      return res.status(404).end();
+    }
+    res.status(200).json({ message: 'Usuario eliminado' });
+  } catch (err) {
+    logger.error(err.message);
+    const customError = new Error(err.message);
+    customError.id = 3;
+    next(customError);
+  }
+}
+
+export async function deleteInactiveUsers(_, res, next) {
+  try {
+    const inactiveUsers = await getUsersInactiveForTwoDays();
+    await Promise.all(
+      inactiveUsers.map(async (user) => {
+        const emailData = {
+          to: user.email, 
+          subject: 'Eliminación de cuenta por inactividad',
+          text: 'Tu cuenta ha sido eliminada debido a inactividad.',
+        };
+
+        await sendMail(emailData.subject, emailData.text, emailData.to); 
+      })
+    );
+    const deletedUserCount = await Promise.all(
+      inactiveUsers.map((user) => deleteUser(user._id))
+    );
+    const totalDeletedUsers = deletedUserCount.reduce((acc, curr) => acc + curr, 0);
+    res
+      .status(200)
+      .json({ message: 'Usuarios inactivos eliminados', totalDeletedUsers });
   } catch (err) {
     logger.error(err.message);
     const customError = new Error(err.message);

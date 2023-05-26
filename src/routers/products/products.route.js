@@ -12,6 +12,7 @@ import {
     search
 } from '../../controllers/product.controller.js';
 import { upload } from '../../middleware/uploadMulter.middleware.js';
+import { checkVIP } from '../../middleware/checkVip.middleware.js';
 
 const router = Router();
 
@@ -23,7 +24,7 @@ router.get('/images/:id', verifyToken, getImageProduct);
 router.post('/', verifyToken, upload.single('thumbnail'), addNewProduct);
 router.get('/:id', verifyToken, getProduct);
 router.put('/:id', verifyToken, updateProduct);
-router.delete('/:id', verifyToken, deleteProduct);
+router.delete('/:id', verifyToken, checkVIP, deleteProduct);
 
 
 export default router;

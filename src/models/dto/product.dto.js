@@ -4,6 +4,6 @@ export default class ProductDTO {
         this.title = product.title,
         this.price = product.price,
         this.thumbnail = product.thumbnail,
-        this.category = product.category
+        this.createdBy = product.createdBy
     }
 }

@@ -11,6 +11,10 @@ const product = new mongoose.Schema({
     },
     thumbnail: { 
         type: String 
+    },
+    createdBy: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User'
     }
 })
 product.plugin(MongooseDelete, {deletedAt:true})

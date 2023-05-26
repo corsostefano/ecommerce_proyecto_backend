@@ -60,12 +60,17 @@ const tableProducts = document.getElementById("tableProducts");
 
 
 async function addProductToCart(id) {
-    const userLog = await fetch("/users/me");
+    try {
+        const userLog = await fetch("/users/me");
     const user = await userLog.json();
     const cartLog = await fetch(`/carrito/${user.email}`);
     const cart = await cartLog.json();
     const productToAddLog = await fetch(`/productos/${id}`);
     let productToAdd = await productToAddLog.json();
+    if (productToAdd.createdBy === user._id) {
+        alert('No puedes comprar tu propio producto.')
+        throw new Error('No puedes comprar tu propio producto.');
+      }
     if (!cart) {
         productToAdd = { ...productToAdd, quantity: 1 };
         const emailUser = { email: user.email };
@@ -122,6 +127,10 @@ async function addProductToCart(id) {
         alert(`Nuevo producto '${productToAdd.title}' agregado al carrito`);
 
     }
+    } catch (error) {
+        alert('No estas autorizado para realizar esta acción');
+    }
+    
 }
 
 cartButton.addEventListener('click', async () => {

@@ -1,0 +1,14 @@
+ <div class="container">
+    <h1>Mis productos</h1>
+    {{#each productos}}
+      <div class="card mb-3">
+        <div class="card-body">
+          <p class="card-text">Nombre del producto: {{this.title}}</p>
+          <p class="card-text">Precio: {{this.price}}</p>
+          <p class="card-text"><img src="{{this.thumbnail}}" width="60px" alt="Thumbnail"></p>
+          <button class="btn btn-danger" onclick="deleteProduct('{{this._id}}')">Eliminar</button>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+  <script src="/js/deleteProducts.js"></script>

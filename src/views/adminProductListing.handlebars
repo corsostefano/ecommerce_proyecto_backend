@@ -1,7 +1,7 @@
 <section class="container">
     <div class="products-table">    
         <div>
-            <h2>Productos</h2>
+            <h2>Listado de todos los productos en tu tienda</h2>
             <table class="table bg-Secondary text-center" id="tableProducts">
                 <tr>
                     <th>Nombre</th>
@@ -14,8 +14,7 @@
                     <td>{{this.price}}</td>
                     <td><a href="/productos/images/{{this._id}}"><img src="{{this.thumbnail}}" alt="{{this.title}}"width="100px"></a></td>
                     <td>
-                        <button id='addProduct{{this._id}}' onclick="addProductToCart('{{this._id}}')"
-                            class='btn btn-outline-success'>Agregar al carrito</button>
+                         <button class="btn btn-danger" onclick="deleteProduct('{{this._id}}')">Eliminar</button>
                     </td>
                 </tr>
                 {{/each}}
@@ -23,4 +22,4 @@
         </div>
     </div>
 </section>
-<script src="./js/products.js"></script>
+<script src="/js/deleteProducts.js"></script>

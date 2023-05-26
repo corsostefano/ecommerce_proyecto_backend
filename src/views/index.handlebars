@@ -7,7 +7,12 @@
       </div>
       <div class="mb-3">
         <label for="inputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="inputPassword" required>
+        <div class="input-group">
+          <input type="password" class="form-control" id="inputPassword" required>
+          <button class="btn btn-outline-secondary input-icon" type="button" onclick="mostrarOcultarPassword('inputPassword', 'togglePassword')">
+            <i class="bi bi-eye" id="togglePassword"></i>
+          </button>
+        </div>
       </div>
       <button type="submit" class="btn btn-primary btn-lg">Ingresar</button>
       <button type="button" class="btn btn-link" id="forgot-password-button">¿Has olvidado tu contraseña?</button>
@@ -44,11 +49,21 @@
     </div>
     <div class="mb-3">
       <label for="inputPassword1" class="form-label">Contraseña</label>
-      <input type="password" class="form-control" id="inputPassword1" required>
+      <div class="input-group">
+        <input type="password" class="form-control" placeholder="Debe contener Mayúscula, Carácter Especial, Minúscula, Números" minlength="8" maxlength="20" id="inputPassword1" pattern="^(?=.*[A-Z])(?=.*[\W_]).+$" required>
+        <button class="btn btn-outline-secondary  input-icon" type="button" onclick="mostrarOcultarPassword('inputPassword1', 'togglePassword1')">
+          <i class="bi bi-eye" id="togglePassword1"></i>
+        </button>
+      </div>
     </div>
     <div class="mb-3">
       <label for="inputPassword2" class="form-label">Repetir Contraseña</label>
-      <input type="password" class="form-control" id="inputPassword2" required>
+      <div class="input-group">
+        <input type="password" class="form-control" placeholder="Debe contener Mayúscula, Carácter Especial, Minúscula, Números" minlength="8" maxlength="20" id="inputPassword2" pattern="^(?=.*[A-Z])(?=.*[\W_]).+$" required>
+        <button class="btn btn-outline-secondary input-icon" type="button" onclick="mostrarOcultarPassword('inputPassword2', 'togglePassword2')">
+          <i class="bi bi-eye" id="togglePassword2"></i>
+        </button>
+      </div>
     </div>
     <div class="mb-3">
       <label for="inputType" class="form-label">Tipo de Usuario</label>

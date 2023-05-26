@@ -432,3 +432,992 @@
   label: 'Esto es un Error',
   timestamp: '2023-05-05T17:50:41.164Z'
 }
+{
+  message: "Cannot read property 'json' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-10T15:32:01.960Z'
+}
+{
+  message: "Cannot read property 'json' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-10T15:57:48.624Z'
+}
+{
+  message: "Cannot find module 'js'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\view.js\n' +
+    '- C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\application.js\n' +
+    '- C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\express.js',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T14:53:51.897Z'
+}
+{
+  message: "Cannot read property 'json' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T15:36:09.769Z'
+}
+{
+  message: "Cannot read property 'json' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T15:38:11.313Z'
+}
+{
+  message: "Cannot read property 'json' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T15:44:24.676Z'
+}
+{
+  message: 'next is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T15:44:24.682Z'
+}
+{
+  message: "Cannot read property 'json' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T15:44:58.866Z'
+}
+{
+  message: 'next is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T15:44:58.872Z'
+}
+{
+  message: "Cannot read property 'json' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T15:50:49.975Z'
+}
+{
+  message: 'next is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T15:50:49.980Z'
+}
+{
+  message: "Cannot read property 'json' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T16:02:17.590Z'
+}
+{
+  message: 'next is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T16:02:17.601Z'
+}
+{
+  message: "Cannot read property 'json' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T16:04:49.207Z'
+}
+{
+  message: 'next is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T16:04:49.212Z'
+}
+{
+  message: "Cannot read property 'json' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T16:31:28.489Z'
+}
+{
+  message: 'next is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T16:31:28.503Z'
+}
+{
+  message: "Cannot read property 'json' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T16:31:28.688Z'
+}
+{
+  message: 'next is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T16:31:28.691Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '":"',
+  kind: 'ObjectId',
+  value: ':',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  Cast to ObjectId failed for value ":" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value ":" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T18:28:24.114Z'
+}
+{
+  message: 'next is not defined',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T18:28:24.118Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '":641dfc4658f566728ad9d04d"',
+  kind: 'ObjectId',
+  value: ':641dfc4658f566728ad9d04d',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  Cast to ObjectId failed for value ":641dfc4658f566728ad9d04d" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value ":641dfc4658f566728ad9d04d" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T18:31:35.204Z'
+}
+{
+  message: 'next is not defined',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T18:31:35.214Z'
+}
+{
+  message: "Cannot destructure property 'deletedCount' of '(intermediate value)' as it is undefined.",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T18:32:25.930Z'
+}
+{
+  message: "Cannot destructure property 'deletedCount' of '(intermediate value)' as it is undefined.",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T18:32:33.350Z'
+}
+{
+  message: 'userInstance.deleteOne is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T18:37:57.857Z'
+}
+{
+  message: 'userInstance.deleteOne is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-14T18:39:07.625Z'
+}
+{
+  message: 'userInstance.findOneAndUpdate is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T12:30:56.519Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"inactive"',
+  kind: 'ObjectId',
+  value: 'inactive',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T13:46:10.775Z'
+}
+{
+  message: 'next is not defined',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T13:46:10.777Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"inactive"',
+  kind: 'ObjectId',
+  value: 'inactive',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T13:47:12.186Z'
+}
+{
+  message: 'next is not defined',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T13:47:12.191Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"inactive"',
+  kind: 'ObjectId',
+  value: 'inactive',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T21:09:39.771Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T21:09:39.777Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"inactive"',
+  kind: 'ObjectId',
+  value: 'inactive',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T21:44:04.252Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T21:44:04.257Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"inactive"',
+  kind: 'ObjectId',
+  value: 'inactive',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T21:44:20.160Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T21:44:20.170Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"inactive"',
+  kind: 'ObjectId',
+  value: 'inactive',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T23:08:15.932Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T23:08:15.935Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"inactive"',
+  kind: 'ObjectId',
+  value: 'inactive',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T23:11:20.754Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: CastError: Cast to ObjectId failed for value "inactive" (type string) at path "_id" for model "User"',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-19T23:11:20.758Z'
+}
+{
+  message: "Cannot read property 'status' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-21T13:13:19.727Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"<Buffer 64 67 95 9e c3 3c c9 b7 be a9 d6 78>"',
+  kind: 'ObjectId',
+  value: <Buffer 64 67 95 9e c3 3c c9 b7 be a9 d6 78>,
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'Buffer',
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  Cast to ObjectId failed for value "<Buffer 64 67 95 9e c3 3c c9 b7 be a9 d6 78>" (type Buffer) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "<Buffer 64 67 95 9e c3 3c c9 b7 be a9 d6 78>" (type Buffer) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-21T13:38:14.770Z'
+}
+{
+  message: "Cannot read property 'status' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-21T13:39:03.784Z'
+}
+{
+  message: 'userInstance.getAll(...).exec is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-21T17:05:31.253Z'
+}
+{
+  message: 'user.toObject is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-21T17:12:28.941Z'
+}
+{
+  message: 'No ha sido posible iniciar sección:\n' +
+    "                Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-21T20:42:15.034Z'
+}
+{
+  message: 'No ha sido posible iniciar sección:\n' +
+    "                Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-21T20:42:29.887Z'
+}
+{
+  message: 'No ha sido posible iniciar sección:\n' +
+    "                Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-21T20:42:33.212Z'
+}
+{
+  message: 'No ha sido posible iniciar sección:\n' +
+    "                Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-21T20:42:42.058Z'
+}
+{
+  message: "Cannot read property 'createdBy' of null",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T14:58:16.632Z'
+}
+{
+  message: "Cannot read property 'createdBy' of null",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T15:01:06.491Z'
+}
+{
+  message: 'repository.getProdByid is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T15:04:55.774Z'
+}
+{
+  message: 'No se encontró el producto',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T15:05:49.047Z'
+}
+{
+  message: 'No se encontró el producto',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T15:08:11.596Z'
+}
+{
+  message: "Cannot read property 'email' of null",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T15:14:11.487Z'
+}
+{
+  message: "Cannot read property 'email' of null",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T15:14:45.558Z'
+}
+{
+  message: "Cannot read property 'email' of null",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T15:15:44.037Z'
+}
+{
+  message: "Cannot read property 'email' of null",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T15:19:48.715Z'
+}
+{
+  message: "Cannot read property 'email' of null",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T15:21:43.020Z'
+}
+{
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  this.collection.delete is not a function',
+  stack: 'TypeError: this.collection.delete is not a function\n' +
+    '    at CartDAO.deleteById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/dao/containers/mongoDB.container.js:65:52)\n' +
+    '    at CartRepository.deleteACart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/repository/cart.repository.js:42:31)\n' +
+    '    at Object.deleteCartById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/services/cart.service.js:26:29)\n' +
+    '    at deleteCart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/controllers/cart.controller.js:98:44)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at verifyToken (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/config/jwt.config.js:20:5)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:24:39.332Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: TypeError: this.collection.delete is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:24:39.337Z'
+}
+{
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  this.collection.delete is not a function',
+  stack: 'TypeError: this.collection.delete is not a function\n' +
+    '    at CartDAO.deleteById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/dao/containers/mongoDB.container.js:65:52)\n' +
+    '    at CartRepository.deleteACart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/repository/cart.repository.js:42:31)\n' +
+    '    at Object.deleteCartById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/services/cart.service.js:26:29)\n' +
+    '    at deleteCart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/controllers/cart.controller.js:98:44)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at verifyToken (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/config/jwt.config.js:20:5)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:24:51.372Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: TypeError: this.collection.delete is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:24:51.375Z'
+}
+{
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  this.collection.delete is not a function',
+  stack: 'TypeError: this.collection.delete is not a function\n' +
+    '    at CartDAO.deleteById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/dao/containers/mongoDB.container.js:65:52)\n' +
+    '    at CartRepository.deleteACart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/repository/cart.repository.js:42:31)\n' +
+    '    at Object.deleteCartById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/services/cart.service.js:26:29)\n' +
+    '    at deleteCart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/controllers/cart.controller.js:98:44)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at verifyToken (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/config/jwt.config.js:20:5)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:25:03.276Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: TypeError: this.collection.delete is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:25:03.278Z'
+}
+{
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  this.collection.delete is not a function',
+  stack: 'TypeError: this.collection.delete is not a function\n' +
+    '    at CartDAO.deleteById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/dao/containers/mongoDB.container.js:65:52)\n' +
+    '    at CartRepository.deleteACart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/repository/cart.repository.js:42:31)\n' +
+    '    at Object.deleteCartById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/services/cart.service.js:26:29)\n' +
+    '    at deleteCart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/controllers/cart.controller.js:98:44)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at verifyToken (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/config/jwt.config.js:20:5)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:25:41.172Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: TypeError: this.collection.delete is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:25:41.174Z'
+}
+{
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  this.collection.delete is not a function',
+  stack: 'TypeError: this.collection.delete is not a function\n' +
+    '    at CartDAO.deleteById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/dao/containers/mongoDB.container.js:65:52)\n' +
+    '    at CartRepository.deleteACart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/repository/cart.repository.js:42:31)\n' +
+    '    at Object.deleteCartById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/services/cart.service.js:26:29)\n' +
+    '    at deleteCart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/controllers/cart.controller.js:98:44)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at verifyToken (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/config/jwt.config.js:20:5)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:25:48.035Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: TypeError: this.collection.delete is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:25:48.038Z'
+}
+{
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  this.collection.delete is not a function',
+  stack: 'TypeError: this.collection.delete is not a function\n' +
+    '    at CartDAO.deleteById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/dao/containers/mongoDB.container.js:65:52)\n' +
+    '    at CartRepository.deleteACart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/repository/cart.repository.js:42:31)\n' +
+    '    at Object.deleteCartById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/services/cart.service.js:26:29)\n' +
+    '    at deleteCart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/controllers/cart.controller.js:98:44)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at verifyToken (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/config/jwt.config.js:20:5)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:33:43.247Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: TypeError: this.collection.delete is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:33:43.264Z'
+}
+{
+  level: 'error',
+  message: 'No es posible borrar el elemento de la base de datos  this.collection.delete is not a function',
+  stack: 'TypeError: this.collection.delete is not a function\n' +
+    '    at CartDAO.deleteById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/dao/containers/mongoDB.container.js:65:52)\n' +
+    '    at CartRepository.deleteACart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/models/repository/cart.repository.js:42:31)\n' +
+    '    at Object.deleteCartById (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/services/cart.service.js:26:29)\n' +
+    '    at deleteCart (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/controllers/cart.controller.js:98:44)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at verifyToken (file:///C:/Users/stefa/OneDrive/Escritorio/ecommerce-proyecto-backend/src/config/jwt.config.js:20:5)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:33:46.856Z'
+}
+{
+  message: 'No es posible borrar el elemento de la base de datos: TypeError: this.collection.delete is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T20:33:46.859Z'
+}
+{
+  message: 'cartServices.getCartById is not a function',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T22:43:33.249Z'
+}
+{
+  message: 'No se encontró el producto',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T23:04:02.986Z'
+}
+{
+  message: 'No se encontró el producto',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-22T23:04:22.445Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"[object Object]"',
+  kind: 'ObjectId',
+  value: '[object Object]',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible obtener el elemento buscado de la base de datos  Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Product"',
+  stack: 'CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Product"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T21:30:51.041Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"[object Object]"',
+  kind: 'ObjectId',
+  value: '[object Object]',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible obtener el elemento buscado de la base de datos  Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Product"',
+  stack: 'CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Product"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T21:32:44.453Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"[object Object]"',
+  kind: 'ObjectId',
+  value: '[object Object]',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:349:32)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'string',
+  level: 'error',
+  message: 'No es posible obtener el elemento buscado de la base de datos  Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Product"',
+  stack: 'CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Product"\n' +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T21:33:31.299Z'
+}
+{
+  message: "Cannot read property '_id' of null",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T22:43:24.144Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: `"{ id: '646d413ecab0361cd64ae6b3' }"`,
+  kind: 'ObjectId',
+  value: { id: '646d413ecab0361cd64ae6b3' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:293:34)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'Object',
+  level: 'error',
+  message: `No es posible obtener el elemento buscado de la base de datos  Cast to ObjectId failed for value "{ id: '646d413ecab0361cd64ae6b3' }" (type Object) at path "_id" for model "User"`,
+  stack: `CastError: Cast to ObjectId failed for value "{ id: '646d413ecab0361cd64ae6b3' }" (type Object) at path "_id" for model "User"\n` +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T22:44:27.480Z'
+}
+{
+  message: `No es posible obtener el elemento buscado de la base de datos: CastError: Cast to ObjectId failed for value "{ id: '646d413ecab0361cd64ae6b3' }" (type Object) at path "_id" for model "User"`,
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T22:44:27.491Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: `"{ id: '646d413ecab0361cd64ae6b3' }"`,
+  kind: 'ObjectId',
+  value: { id: '646d413ecab0361cd64ae6b3' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:293:34)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'Object',
+  level: 'error',
+  message: `No es posible obtener el elemento buscado de la base de datos  Cast to ObjectId failed for value "{ id: '646d413ecab0361cd64ae6b3' }" (type Object) at path "_id" for model "User"`,
+  stack: `CastError: Cast to ObjectId failed for value "{ id: '646d413ecab0361cd64ae6b3' }" (type Object) at path "_id" for model "User"\n` +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T22:46:16.769Z'
+}
+{
+  message: `No es posible obtener el elemento buscado de la base de datos: CastError: Cast to ObjectId failed for value "{ id: '646d413ecab0361cd64ae6b3' }" (type Object) at path "_id" for model "User"`,
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T22:46:16.780Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: `"{ id: '646d413ecab0361cd64ae6b3' }"`,
+  kind: 'ObjectId',
+  value: { id: '646d413ecab0361cd64ae6b3' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\cast.js:293:34)
+      at model.Query.Query.cast (C:\Users\stefa\OneDrive\Escritorio\ecommerce-proyecto-backend\node_modules\mongoose\lib\query.js:5357:12),
+  valueType: 'Object',
+  level: 'error',
+  message: `No es posible obtener el elemento buscado de la base de datos  Cast to ObjectId failed for value "{ id: '646d413ecab0361cd64ae6b3' }" (type Object) at path "_id" for model "User"`,
+  stack: `CastError: Cast to ObjectId failed for value "{ id: '646d413ecab0361cd64ae6b3' }" (type Object) at path "_id" for model "User"\n` +
+    '    at model.Query.exec (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:4927:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\stefa\\OneDrive\\Escritorio\\ecommerce-proyecto-backend\\node_modules\\mongoose\\lib\\query.js:5026:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T22:47:34.459Z'
+}
+{
+  message: `No es posible obtener el elemento buscado de la base de datos: CastError: Cast to ObjectId failed for value "{ id: '646d413ecab0361cd64ae6b3' }" (type Object) at path "_id" for model "User"`,
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T22:47:34.466Z'
+}
+{
+  message: 'No puedes comprar tu propio producto.',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T22:58:13.961Z'
+}
+{
+  message: "Cannot read property 'toString' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T22:59:48.838Z'
+}
+{
+  message: "Cannot read property 'toString' of undefined",
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T23:01:29.611Z'
+}
+{
+  message: 'No puedes comprar tu propio producto.',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T23:04:50.717Z'
+}
+{
+  message: 'No puedes comprar tu propio producto.',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T23:16:33.363Z'
+}
+{
+  message: 'No puedes comprar tu propio producto.',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T23:24:42.071Z'
+}
+{
+  message: 'No puedes comprar tu propio producto.',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-23T23:28:17.131Z'
+}
+{
+  message: 'Error en servidor Error: listen EADDRINUSE: address already in use 0.0.0.0:8080',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-26T15:37:38.248Z'
+}
+{
+  message: 'Error en servidor Error: listen EADDRINUSE: address already in use 0.0.0.0:8080',
+  level: 'error',
+  label: 'Esto es un Error',
+  timestamp: '2023-05-26T15:38:15.804Z'
+}

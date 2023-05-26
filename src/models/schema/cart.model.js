@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
+import mongooseDelete from 'mongoose-delete';
 
-const cart = new mongoose.Schema({
+const cartSchema = new mongoose.Schema({
     email: { 
         type: String, 
         required: true 
@@ -26,4 +27,6 @@ const cart = new mongoose.Schema({
     ]
 })
 
-export default mongoose.model('Cart', cart);
+cartSchema.plugin(mongooseDelete, { overrideMethods: true })
+
+export default mongoose.model('Cart', cartSchema);

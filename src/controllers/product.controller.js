@@ -1,6 +1,8 @@
 import { logger } from '../logs/logger.logs.js';
 import productServices from '../services/product.service.js';
 import cloudinary from '../config/cloudinary.config.js';
+import { getUser } from '../services/user.services.js';
+import { sendMail } from '../utils/email.utils.js';
 
 
 export async function indexProducts(_, res, next) {
@@ -67,6 +69,7 @@ export async function addNewProduct(req, res, next) {
   try {
     const { title, price } = req.body;
     const thumbnail = req.file;
+    const userId = req.user._id;
 
     if (!thumbnail) {
       throw new Error('No se cargó ninguna imagen.');
@@ -77,7 +80,8 @@ export async function addNewProduct(req, res, next) {
     const newProduct = {
       title,
       price,
-      thumbnail: thumbnailUrl
+      thumbnail: thumbnailUrl,
+      createdBy: userId
     };
 
     await productServices.addProduct(newProduct);
@@ -123,8 +127,27 @@ export async function updateProduct(req, res, next) {
 export async function deleteProduct(req, res, next) {
   try {
     const id = req.params.id;
+
+    const product = await productServices.getProductById(id);
+  
     const response = await productServices.deleteProductById(id);
-    res.status(204).end(response);
+    
+    if (response) {
+      const user = await getUser(product.createdBy);
+     
+      const emailOptions = {
+        to: user.email,
+        subject: 'Eliminación de producto',
+        text: `Estimado/a ${user.fullname},\n\nTu producto "${product.title}" ha sido eliminado. Lamentamos cualquier inconveniente causado.\n\nAtentamente,\nEl equipo de la tienda`
+      };
+      
+      await sendMail(emailOptions.subject, emailOptions.text, emailOptions.to);
+
+      res.status(200).json({ message: 'El producto se eliminó correctamente' });
+    } else {
+      throw new Error('No se pudo eliminar el producto');
+    }
+  
   } catch (err) {
     logger.error(err.message);
     const customError = new Error(err.message);
@@ -132,7 +155,6 @@ export async function deleteProduct(req, res, next) {
     next(customError);
   }
 }
-
 
 export async function search(req, res, next) {
   try {

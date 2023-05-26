@@ -1,0 +1,39 @@
+  <div class="container">
+    <h1>Listado de Usuarios</h1>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Teléfono</th>
+                <th>Tipo de usuario</th>
+                <th>Administrador</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each users}}
+            <tr>
+                <td>{{this.fullname}}</td>
+                <td>{{this.email}}</td>
+                <td>{{this.phone}}</td>
+                <td>{{this.type}}</td>
+                <td>{{this.isAdmin}}</td>
+                <td>
+                    <button class="btn btn-danger" onclick="deleteUserPanel('{{this._id}}')">Eliminar</button>
+                    <!--<button class="btn btn-primary" onclick="actualizarUsuario('{{this._id}}')">Actualizar</button>-->
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+    <div>
+        <h4>
+            Eliminar usuarios inactivos
+        </h4>
+        <button class="btn btn-danger" id="deleteInactiveBtn">Eliminar Inactivos</button>
+    </div>
+</div>
+
+<script src="/js/adminUsers.js"></script>

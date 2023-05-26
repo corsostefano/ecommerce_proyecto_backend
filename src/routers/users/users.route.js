@@ -1,12 +1,14 @@
 import { Router } from "express";
-import { verifyToken } from '../../config/jwt.config.js'
+import { verifyToken, verifyAdminToken } from '../../config/jwt.config.js'
+import { isAdmin } from "../../middleware/checkAdmin.middleware.js";
 import {
   getAuthUser,
   registerUser,
   getAllUsers,
   getOneUser,
   updateUser,
-  deleteOneUser
+  deleteOneUser,
+  deleteInactiveUsers
 } from "../../controllers/user.controller.js";
 
 
@@ -17,6 +19,8 @@ router.post("/", registerUser);
 router.get("/", verifyToken, getAllUsers);
 router.get("/:id", verifyToken, getOneUser);
 router.put("/:id", verifyToken, updateUser);
-router.delete("/:id", verifyToken, deleteOneUser);
+router.delete('/:id',verifyAdminToken, isAdmin, deleteOneUser);
+//eliminar por inactividad
+router.delete('/inactive/delete',verifyAdminToken, isAdmin, deleteInactiveUsers);
 
 export default router;
