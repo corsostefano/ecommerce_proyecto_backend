@@ -4,7 +4,6 @@ import jwt from 'jsonwebtoken';
 import User from '../models/schema/user.model.js'
 import bcrypt from 'bcryptjs'
 
-
 export async function getCookie(req, res, next) {
   try {
     const cookies = req.cookies.token
@@ -40,8 +39,6 @@ export async function signIn(req, res, next) {
     next(customError);
   }
 }
-
-
 
 export async function signOut(_, res, next) {
   try {
@@ -95,7 +92,7 @@ export async function forgotPassword(req, res, next) {
 
     const token = jwt.sign({ userId: user._id }, 'my-secret-key', { expiresIn: '1h' });
     user.resetPasswordToken = token;
-    user.resetPasswordExpires = Date.now() + 60 * 60 * 1000; // 1 hora
+    user.resetPasswordExpires = Date.now() + 60 * 60 * 1000; 
     await user.save();
 
     const baseUrl = process.env.BASE_URL || `http://localhost:${process.env.PORT}`;
@@ -108,7 +105,6 @@ export async function forgotPassword(req, res, next) {
     next(err)
   }
 }
-
 
 export async function resetPassword(req, res, next) {
   try {
@@ -127,19 +123,16 @@ export async function resetPassword(req, res, next) {
       return res.status(400).json({ message: 'La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una minúscula y un número.' });
     }
 
-    // Verificar si la nueva contraseña es igual a la contraseña actual del usuario
     const passwordMatches = await bcrypt.compare(password, user.password);
     if (passwordMatches) {
       return res.status(400).json({ message: 'La nueva contraseña no puede ser igual a la contraseña actual o una contraseña anterior.' });
     }
 
-    // Verificar si la contraseña ya está en uso
     const passwordInUse = await User.findOne({ password });
     if (passwordInUse) {
       return res.status(400).json({ message: 'La contraseña ya está en uso. Por favor ingrese una nueva no repetida.' });
     }
 
-    // Verificar si la nueva contraseña es igual a alguna contraseña anterior del usuario
     const passwords = user.passwordHistory || [];
     const passwordUsed = passwords.some((pastPassword) => {
       return bcrypt.compareSync(password, pastPassword);
@@ -147,10 +140,8 @@ export async function resetPassword(req, res, next) {
     if (passwordUsed) {
       return res.status(400).json({ message: 'La nueva contraseña no puede ser igual a la contraseña actual o una contraseña anterior.' });
     }
-
-    // Agregar la nueva contraseña al historial de contraseñas del usuario
     passwords.push(user.password);
-    user.passwordHistory = passwords.slice(-5); // mantener solo las últimas 5 contraseñas
+    user.passwordHistory = passwords.slice(-5);
 
     const encryptedPassword = await bcrypt.hash(password, 10);
 
@@ -167,7 +158,6 @@ export async function resetPassword(req, res, next) {
     next(customError);
   }
 }
-
 
 export async function renderResetPassword(req, res, next){
   try {

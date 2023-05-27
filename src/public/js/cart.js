@@ -47,7 +47,6 @@ async function loadWebPage() {
 
 loadWebPage()
 
-//Botón para Desconectarse de la sesión
 signOutButton.addEventListener('click', async () => {
     const responseFetch = await fetch("/auth/sign-out", {
         headers: {

@@ -38,12 +38,10 @@ signOutButton.addEventListener('click', async () => {
     }
 });
 
-//Boton para linkear a la vista de productos
 linkProducts.addEventListener('click', async () => {
     window.location.replace("/productos");
 });
 
-//Boton para linkear a la vista de chat
 linkChat.addEventListener('click', async () => {
     window.location.replace("/chat");
 });
@@ -51,7 +49,6 @@ linkVipSection.addEventListener('click', async () => {
   window.location.replace("/vip");
 });
 
-//CENTRO DE MENSAJES - CHAT
 const message = document.getElementById("messages");
 const formChat = document.getElementById("form");
 const inputMessage = document.getElementById("msg_input");

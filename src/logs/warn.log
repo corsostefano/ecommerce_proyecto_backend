@@ -3654,3 +3654,15 @@
   label: 'Esto es un warn',
   timestamp: '2023-05-26T15:38:15.797Z'
 }
+{
+  message: 'Contraseña inválida',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-26T16:17:46.098Z'
+}
+{
+  message: 'Acceso a ruta inexistente /sweetalert2.min.css con el método GET',
+  level: 'warn',
+  label: 'Esto es un warn',
+  timestamp: '2023-05-26T17:40:27.858Z'
+}

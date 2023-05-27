@@ -11,7 +11,6 @@ router.get('/', async (req, res, next) => {
         } else {
             res.render('index.handlebars');
         }
-        /*         res.render('index.handlebars'); */
     } catch (err) {
         logger.error(`${err.message}`);
         const customError = new Error(err.message);

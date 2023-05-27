@@ -184,13 +184,9 @@ forgotPasswordButton.addEventListener("click", function() {
   });
 
   forgotPasswordFormInner.addEventListener('submit', (event) => {
-    // Prevenir el comportamiento predeterminado del formulario
     event.preventDefault();
-  
-    // Obtener los valores de los campos del formulario
     const email = document.getElementById('inputEmail2').value;
   
-    // Enviar los valores al backend utilizando fetch
     fetch('/auth/forgot-password', {
       method: 'POST',
       body: JSON.stringify({ email: email }),
@@ -200,15 +196,12 @@ forgotPasswordButton.addEventListener("click", function() {
     })
     .then(response => {
       if (response.ok) {
-        // Mostrar un mensaje de éxito al usuario
         alert('Se ha enviado un correo electrónico con las instrucciones para recuperar su contraseña');
       } else {
-        // Mostrar un mensaje de error al usuario
         alert('No se pudo enviar el correo electrónico de recuperación de contraseña');
       }
     })
     .catch(error => {
-      // Mostrar un mensaje de error al usuario
       alert('Ha ocurrido un error: ' + error);
     });
   });

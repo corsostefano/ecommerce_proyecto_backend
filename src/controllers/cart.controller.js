@@ -70,11 +70,9 @@ export async function addProductToCart(req, res, next) {
     const product = req.body;
     const cartId = id;
 
-    // Verificar si product.createdBy y user._id tienen un valor
     if (typeof product.createdBy !== 'undefined' && typeof user._id !== 'undefined' && product.createdBy.toString() === user._id.toString()) {
-      // El usuario está intentando comprar su propio producto
       const error = new Error('No puedes comprar tu propio producto.');
-      error.statusCode = 403; // Código de estado HTTP 403: Prohibido
+      error.statusCode = 403; 
       throw error;
     }
 

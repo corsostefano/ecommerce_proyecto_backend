@@ -13,10 +13,9 @@ export function adminWithoutAccess(req, res, next) {
   if (user.isAdmin) {
     const error = new Error('Tienes el Acceso Prohibido a las compras por ser administrador');
     error.status = 403;
-    error.id = 403; // Nuevo
-    error.message = 'Tienes el Acceso Prohibido a las compras por ser administrador'; // Nuevo
-    throw error; // Lanza el error
+    error.id = 403; 
+    error.message = 'Tienes el Acceso Prohibido a las compras por ser administrador'; 
+    throw error; 
   }
-
   next();
 }

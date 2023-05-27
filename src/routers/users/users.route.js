@@ -20,7 +20,6 @@ router.get("/", verifyToken, getAllUsers);
 router.get("/:id", verifyToken, getOneUser);
 router.put("/:id", verifyToken, updateUser);
 router.delete('/:id',verifyAdminToken, isAdmin, deleteOneUser);
-//eliminar por inactividad
 router.delete('/inactive/delete',verifyAdminToken, isAdmin, deleteInactiveUsers);
 
 export default router;

@@ -206,3 +206,7 @@ Endpoints de la Aplicación
     Panel de Control de Administradores
 
    - Puedes acceder al panel administrativo de la ecommerce mediante la ruta '/admin', debes iniciar sección previamente   
+
+    Servidor de Producción 
+
+    ecommerceproyectobackend-production.up.railway.app
